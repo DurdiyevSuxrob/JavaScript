@@ -28,7 +28,7 @@
 // }
 // let son = 0
 // if (son < 0 ) {
-//     console.log("bu son manfiy")
+//     console.log("bu son manfiy") 
 // } else if(son === 0) {
 //     console.log("bu son nol")
 // } 
@@ -37,12 +37,21 @@
 //     console.log("bu son musfat")
 // }
 // ===============================
-let parol = "qweqwe"
-if (parol === "qweqwe") {
-    console.log("Tizim ochildi")
+// let parol = "qweqwe"
+// if (parol === "qweqwe") {
+//     console.log("Tizim ochildi")
+// } else {
+//     console.log("Parol xato")
+// }
+let login = prompt ("Login kiriting")
+
+if (login === "Admin") {
+    console.log("tizim ochildi");
 } else {
-    console.log("Parol xato")
+    console.log("tizim ochilmadi")
 }
+
+
 
 
     
