@@ -51,7 +51,20 @@
 //     console.log("tizim ochilmadi")
 // }
 // ===================================================
-let = 
+// let son1 = prompt ("Birinchi sonni kiriting")
+// let son2 = prompt ("Ikkimchi sonni kiriting")
+
+// if (son1 > son2) {
+//     console.log("birinchi son katta");
+// } else if (son1 < son2) {
+//     console.log("ikkinchi son katta")
+// }
+// else {
+//     console.log("ikkalasam teng")
+// }
+let 
+    
+
 
 
 
