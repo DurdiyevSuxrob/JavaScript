@@ -43,13 +43,15 @@
 // } else {
 //     console.log("Parol xato")
 // }
-let login = prompt ("Login kiriting")
+// let login = prompt ("Login kiriting")
 
-if (login === "Admin") {
-    console.log("tizim ochildi");
-} else {
-    console.log("tizim ochilmadi")
-}
+// if (login === "Admin") {
+//     console.log("tizim ochildi");
+// } else {
+//     console.log("tizim ochilmadi")
+// }
+// ===================================================
+let = 
 
 
 
