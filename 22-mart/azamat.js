@@ -61,8 +61,57 @@
 // }
 // else {
 //     console.log("ikkalasam teng")
+//  }
+// let SON = 2
+// if (son > 0) {
+//     console.log(son + 1);
+    
+// } else {
+//     console.log(son);
+// }
+// let son1 = 7
+// if (son1 > 0) {
+//     console.log(son1 + 1);
+// } else {
+//     console.log(son1 - 2);
+    
 // }
 let 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 
