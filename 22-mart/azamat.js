@@ -75,8 +75,41 @@
 // } else {
 //     console.log(son1 - 2);
     
+// 
+// let son = 12
+// if (son >= 18) {
+//     console.log("siz voyaga yetgansiz");
+// } else {
+//     console.log("siz voyaga yetmagansiz");
 // }
-let 
+// let class4 = 12
+// if (class4 >= 12) {
+//     console.log("siz maktabni tugatgansiz");
+    
+// } else {
+//     console.log("siz maktabda o'qisiz");
+    
+// }
+// let havo = 29
+// if (havo >=31) {
+//     console.log("havo juda issiq");
+    
+// } else {
+//     console.log("havo yaxshi");
+    
+// }
+
+
+ let bal = 20
+ if (bal >=40) {
+    console.log("siz grant oldiz");
+ } else if (bal >=21) {
+    console.log("siz qantraq oldiz");
+    
+ }
+  else {
+    console.log(" siz yiqildingiz");
+ }
 
 
 
