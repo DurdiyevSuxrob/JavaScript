@@ -118,15 +118,31 @@
 //    console.log("a soni juft son");
    
 // }
-let a = 2
-let b = 4
-if (a > 2 && b >= 3) {
-   console.log(true);
+// let a = 3
+// let b = 4
+// if (a > 2 && b >= 3) {
+//    console.log(true);
    
-} else {
-   console.log(false);
+// } else {
+//    console.log(false);
    
-}
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
