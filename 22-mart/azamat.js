@@ -110,6 +110,8 @@
   else {
     console.log(" siz yiqildingiz");
  }
+  
+
 
 
 
