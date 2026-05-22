@@ -100,16 +100,46 @@
 // }
 
 
- let bal = 20
- if (bal >=40) {
-    console.log("siz grant oldiz");
- } else if (bal >=21) {
-    console.log("siz qantraq oldiz");
+//  let bal = 20
+//  if (bal >=40) {
+//     console.log("siz grant oldiz");
+//  } else if (bal >=21) {
+//     console.log("siz qantraq oldiz");
     
- }
-  else {
-    console.log(" siz yiqildingiz");
- }
+//  }
+//   else {
+//     console.log(" siz yiqildingiz");
+//  }
+// let a =  18
+// if (a % 2 !== 0) {
+//    console.log("a soni toq son");
+   
+// } else {
+//    console.log("a soni juft son");
+   
+// }
+let a = 2
+let b = 4
+if (a > 2 && b >= 3) {
+   console.log(true);
+   
+} else {
+   console.log(false);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
