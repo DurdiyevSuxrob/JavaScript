@@ -12,7 +12,7 @@
 // } else {
 //     console.log("Siz toq son kiritdingiz")
 // }
-// 3. o'quvchi sinifini kiritsin, agarda 11sonidan katta 
+// 3. o'quvchi sinifini kiritsin, agarda 11sonidan katta
 // let sinf = 12
 // if (sinf < 12)  {
 //     console.log("Siz hali oquvchisiz")
@@ -28,10 +28,10 @@
 // }
 // let son = 0
 // if (son < 0 ) {
-//     console.log("bu son manfiy") 
+//     console.log("bu son manfiy")
 // } else if(son === 0) {
 //     console.log("bu son nol")
-// } 
+// }
 
 // else {
 //     console.log("bu son musfat")
@@ -65,7 +65,7 @@
 // let SON = 2
 // if (son > 0) {
 //     console.log(son + 1);
-    
+
 // } else {
 //     console.log(son);
 // }
@@ -74,8 +74,8 @@
 //     console.log(son1 + 1);
 // } else {
 //     console.log(son1 - 2);
-    
-// 
+
+//
 // let son = 12
 // if (son >= 18) {
 //     console.log("siz voyaga yetgansiz");
@@ -85,27 +85,26 @@
 // let class4 = 12
 // if (class4 >= 12) {
 //     console.log("siz maktabni tugatgansiz");
-    
+
 // } else {
 //     console.log("siz maktabda o'qisiz");
-    
+
 // }
 // let havo = 29
 // if (havo >=31) {
 //     console.log("havo juda issiq");
-    
+
 // } else {
 //     console.log("havo yaxshi");
-    
-// }
 
+// }
 
 //  let bal = 20
 //  if (bal >=40) {
 //     console.log("siz grant oldiz");
 //  } else if (bal >=21) {
 //     console.log("siz qantraq oldiz");
-    
+
 //  }
 //   else {
 //     console.log(" siz yiqildingiz");
@@ -113,165 +112,55 @@
 // let a =  18
 // if (a % 2 !== 0) {
 //    console.log("a soni toq son");
-   
+
 // } else {
 //    console.log("a soni juft son");
-   
+
 // }
 // let a = 3
 // let b = 4
 // if (a > 2 && b >= 3) {
 //    console.log(true);
-   
+
 // } else {
 //    console.log(false);
-   
+
 // }
-let yil = 2010
-if (yil >=2011) {
-    console.log("abdumalik");
-    
-} else if (yil <=2009) {
-    console.log("shahruzbek");
-} else {
-    console.log("suxrob");
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-    
+// let yil = 2013
+// if (yil >=2011) {
+//     console.log("abdumalik");
+
+// } else if (yil ===2013) {
+//     console.log("shahruzbek");
+// } else {
+//     console.log("suxrob");
+
+// }
+// let day = 7;
+// switch (day) {
+//   case 1:
+//     console.log("Dushanba");
+//     break
+//   case 2:
+//     console.log("Seshanba");
+//     break
+//   case 3:
+//     console.log("chorshanba");
+//     break
+//   case 4:
+//     console.log("Payshanba");
+//     break
+//   case 5:
+//     console.log("Juma");
+//     break
+//   case 6:
+//     console.log("shanba");
+//     break
+//   case 7:
+//     console.log("Yakshanba");
+//     break
+//     default:
+//       console.log("Notog'ri kun");
+      
+// }
+let yil = 
