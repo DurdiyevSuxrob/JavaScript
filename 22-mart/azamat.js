@@ -127,7 +127,16 @@
 //    console.log(false);
    
 // }
-
+let yil = 2010
+if (yil >=2011) {
+    console.log("abdumalik");
+    
+} else if (yil <=2009) {
+    console.log("shahruzbek");
+} else {
+    console.log("suxrob");
+    
+}
 
 
 
