@@ -209,4 +209,20 @@
 // } else {
 //   console.log("Siz kiritgan raqamga mos oy topilmadi!");
 // }
-
+let oy = 6;
+switch (true) {
+  case oy >= 3 && oy <= 5:
+    console.log("Bahor");
+    break;
+  case oy >= 6 && oy <= 8:
+    console.log("Yoz");
+    break;
+  case oy >= 9 && oy <= 11:
+    console.log("Kuz");
+    break;
+  case oy == 12 || (oy >= 1 && oy <= 2):
+    console.log("Qish");
+    break;
+  default:
+    console.log("Siz kiritgan raqamga mos oy topilmadi!");
+}
