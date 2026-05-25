@@ -161,6 +161,52 @@
 //     break
 //     default:
 //       console.log("Notog'ri kun");
-      
+
 // }
-let yil = 
+// let yil = 2013
+// switch (yil) {
+//   case 2010:
+//     console.log("suxrob");
+//     break
+//     case 2011:
+//       console.log("abdumalik");
+//       break
+//       case 2013:
+//         console.log("shahruzbek");
+//         break
+//         default:
+//           console.log("notog'ri ism");
+// }
+// let til = "uzb";
+// switch (til) {
+//   case "uzb":
+//     console.log("salom");
+//     break;
+//   case "eng":
+//     console.log("hello");
+//     break;
+//   case "hind":
+//     console.log("Namasde");
+//     break;
+//   case "karea":
+//     console.log("Anihasio");
+//     break;
+//   case "rus":
+//     console.log("prevet");
+//     break;
+//   default:
+//     console.log("notog'ri salom");
+// }
+// let oy = 3;
+// if (oy >= 3 && oy <= 5) {
+//   console.log("Bahor");
+// } else if (oy >= 6 && oy <= 8) {
+//   console.log("Yoz");
+// } else if (oy >= 9 && oy <= 11) {
+//   console.log("Kuz");
+// } else if (oy == 12 || (oy >= 1 && oy <= 2)) {
+//   console.log("Qish");
+// } else {
+//   console.log("Siz kiritgan raqamga mos oy topilmadi!");
+// }
+
