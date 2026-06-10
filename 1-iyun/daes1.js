@@ -15,12 +15,22 @@
 //     console.log(i);
 // }
 // 
-    let son = 1
-    while (son <= 5) {
-        console.log(son);
-        son = son + 1  
-    }
+    // let son = 1
+    // while (son <= 5) {
+    //     console.log(son);
+    //     son = son + 1  
+    // }
 
+    // let son = 1
+    // let natija = 0
+    // while (son <= 20) {
+    //     natija = natija + son
+    //     console.log(son);
+    //     son = son + 1  
+    // }
+    // console.log(natija);
+    
+    
 
 
 
