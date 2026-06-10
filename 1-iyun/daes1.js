@@ -10,10 +10,11 @@
 //         console.log(i);
 //     }
 // }
-for (let i = 0; i <= 100; i=i++ ) {
-    if ( i % 4 )
-    console.log(i);
-}
+// for (let i = 0; i <= 100; i=i++ ) {
+//     if ( i % 4 )
+//     console.log(i);
+// }
+
 
 
 
