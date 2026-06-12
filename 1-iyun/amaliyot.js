@@ -14,7 +14,7 @@
 // son1 = 4;
 // console.log(son / son1);
 // ===================================
-// for (let i=0; i<3; i++) {
+//c {
 //     console.log("salom")
 // }
 // =======================================
@@ -42,6 +42,10 @@
 //     console.log("teng emas");
 // }
 // ===========================================
-for (let i = 1; i < 4; i++) {
-  console.log(i);
-}
+// let yigindi = 0
+// for (let i = 1; i <= 4; i++) {
+//   yigindi = yigindi + i
+// }
+// console.log(yigindi)
+// =================================
+
