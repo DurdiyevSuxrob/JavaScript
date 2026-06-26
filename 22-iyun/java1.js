@@ -62,8 +62,9 @@ arr .unshift(1, 2, 3, 4, 5)
 arr .shift()
 // shift boshindan olip tashlaydi
 arr .splice(1, 15, 7)
-
+//splice ortasindan olip qoshadon
 arr .splice(1, 15)
+
 
 
 
