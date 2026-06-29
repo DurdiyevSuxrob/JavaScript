@@ -52,18 +52,21 @@
 //     console.log(i**2)
 // }
 // ==============================================
-let arr = [23, 54, 76, 54, 346, 234, 213, 12, 31, 3, 4, 5, 345, 3, 4, 53, 54]
-arr .pop()
-// pop ohirdan oladi
-arr .push(1, 2, 3, 4, 5)
-// push ohirdan qoshadi
-arr .unshift(1, 2, 3, 4, 5)
-// unshift boshiga qoshadi
-arr .shift()
-// shift boshindan olip tashlaydi
-arr .splice(1, 15, 7)
-//splice ortasindan olip qoshadon
-arr .splice(1, 15)
+// let arr = [23, 54, 76, 54, 346, 234, 213, 12, 31, 3, 4, 5, 345, 3, 4, 53, 54]
+// arr .pop()
+// // pop ohirdan oladi
+// arr .push(1, 2, 3, 4, 5)
+// // push ohirdan qoshadi
+// arr .unshift(1, 2, 3, 4, 5)
+// // unshift boshiga qoshadi
+// arr .shift()
+// // shift boshindan olip tashlaydi
+// arr .splice(1, 15, 7)
+// //splice ortasindan olip qoshadon
+// arr .splice(1, 15)
+// ===================================================
+
+
 
 
 
