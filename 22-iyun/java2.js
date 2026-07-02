@@ -1,7 +1,9 @@
 // 1-masala
 // let arr = [1, [2, [3, [4, 5]]], 6]
-console.log([1, [2, [3, [4, 5]]], 6].flat(Infinity))
+// console.log([1, [2, [3, [4, 5]]], 6].flat(Infinity))
 // =============================================
-// let arr = [1, [2, 3], [4, [5, 6]]];
-// console.log(arr.flat()); // [1, 2, 3, 4, [5, 6]]  — 1 daraja
-// console.log(arr.flat(2)); // [1, 2, 3, 4, 5, 6]    — 2 daraja
+// 2-masala
+// let arr = ["olma", "anor"];
+// arr.push("uzum");
+// console.log(arr); 
+// =================================================
