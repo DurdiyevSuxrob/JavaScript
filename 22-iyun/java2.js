@@ -8,9 +8,9 @@
 
 // let arr = ["olma", "anor"];
 // arr.push("uzum");
-// console.log(arr);
+// console.log(arr); 
 // =================================================
-// 3-masala!
+// 3-masala! 
 
 // let talabalar = [{ism:"Ali", ball:75}, {ism:"Vali", ball:40}, {ism:"Guli", ball:90}];
 // let idx = talabalar.findIndex((n) => n > 35);
@@ -31,12 +31,14 @@
 //   }
 // }
 // =============================================================
-// 6-masala!
+// 6-masala! 
 // let arr = ["1", "2", "3", "4", "5"];
 // let oxirgi = arr.pop(2, 3, 4);
-// console.log(arr);
+// console.log(arr); 
 // =============================================================
 // 7-masala!
+
+
 
 // =================================================================
 // 8-masala%
@@ -46,10 +48,13 @@
 // arr.unshift("Ali")
 // console.log(arr);
 // =====================================================================
-// 9-masala
+// 9-masala% values() iteratorini for...of bilan aylanib, faqat 10 dan katta sonlarni konsolga chiqaring.
 
-let arr = [4, 8, 15, 16, 23, 42];
-for (let val of arr.values())
-  if (son > 10) {
-    console.log(val);
-  }
+// let arr = [4, 8, 15, 16, 23, 42];
+// for (let val of arr.values()) {
+//     if (val > 10) {
+//         console.log(val); 
+//     }
+// }
+// =============================================================================
+// 10-masala
