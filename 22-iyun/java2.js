@@ -7,3 +7,7 @@
 // arr.push("uzum");
 // console.log(arr); 
 // =================================================
+// 3-masala
+let talabalar = [{ism:"Ali", ball:75}, {ism:"Vali", ball:40}, {ism:"Guli", ball:90}];
+let idx = talabalar.findIndex((n) => n > );
+console.log(idx); // 2
