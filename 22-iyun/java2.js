@@ -8,9 +8,9 @@
 
 // let arr = ["olma", "anor"];
 // arr.push("uzum");
-// console.log(arr); 
+// console.log(arr);
 // =================================================
-// 3-masala! Balli 50 dan past bo'lgan birinchi talabaning indeksini findIndex() bilan toping.
+// 3-masala!
 
 // let talabalar = [{ism:"Ali", ball:75}, {ism:"Vali", ball:40}, {ism:"Guli", ball:90}];
 // let idx = talabalar.findIndex((n) => n > 35);
@@ -34,9 +34,22 @@
 // 6-masala!
 // let arr = ["1", "2", "3", "4", "5"];
 // let oxirgi = arr.pop(2, 3, 4);
-// console.log(arr); 
+// console.log(arr);
 // =============================================================
-// 7-masala
+// 7-masala!
 
+// =================================================================
+// 8-masala%
+// Navbatga eng oldinga "Ali" ismini unshift() bilan qo'shing va yangi navbat uzunligini chop eting.
 
+// let arr =["Vali", "Guli"]
+// arr.unshift("Ali")
+// console.log(arr);
+// =====================================================================
+// 9-masala
 
+let arr = [4, 8, 15, 16, 23, 42];
+for (let val of arr.values())
+  if (son > 10) {
+    console.log(val);
+  }
