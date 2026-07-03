@@ -38,7 +38,9 @@ let stack = []
 for (let i = 1; i <= 5; i++) {
     stack.push(i);
 }
-for (let i = 0; i <= 3; i  )
+for (let i = 0; i <= 3; i++) {
+    popStack.push(stack.pop())
+}
 // 7-masala!
 
 
