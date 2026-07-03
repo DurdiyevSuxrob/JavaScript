@@ -75,3 +75,8 @@
 let vazifalar = ["A vazifa", "B vazifa", "C vazifa"];
 //
 // 
+
+
+
+
+
