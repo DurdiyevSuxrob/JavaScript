@@ -41,6 +41,10 @@ for (let i = 1; i <= 5; i++) {
 for (let i = 0; i <= 3; i++) {
     popStack.push(stack.pop())
 }
+console.log('Jami stack da (${stack}) lar qoldi ');
+console.log('olib tashlangan mahsulotlar (${popStack.reverse()})  ');
+
+
 // 7-masala!
 
 
