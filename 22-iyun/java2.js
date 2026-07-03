@@ -46,8 +46,8 @@
 // console.log(`olib tashlangan mahsulotlar (${popStack.reverse()})`);
 
 // 7-masala!
-let arr = ["JS", "dan", "salom"];
-console.log($(arr.reverse()));
+// let arr = ["JS", "dan", "salom"];
+// console.log($(arr.reverse()));
 
 // =================================================================
 // 8-masala%
@@ -70,3 +70,8 @@ console.log($(arr.reverse()));
 // let sonlar = [12, 5, 8, 21, 3, 17];
 // let natija = sonlar.findLast((n) => n > 2);
 // console.log(natija);
+// ==============================================================================
+// shift() yordamida vazifalarni birma-bir olib, bajarilgan massiviga push() qiling (tsikl bilan).
+let vazifalar = ["A vazifa", "B vazifa", "C vazifa"];
+//
+// 
