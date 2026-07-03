@@ -73,6 +73,7 @@
 // ==============================================================================
 // shift() yordamida vazifalarni birma-bir olib, bajarilgan massiviga push() qiling (tsikl bilan).
 let vazifalar = ["A vazifa", "B vazifa", "C vazifa"];
+
 //
 // 
 
