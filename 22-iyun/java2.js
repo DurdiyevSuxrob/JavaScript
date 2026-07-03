@@ -46,6 +46,8 @@
 // console.log(`olib tashlangan mahsulotlar (${popStack.reverse()})`);
 
 // 7-masala!
+let arr = ["JS", "dan", "salom"];
+console.log($(arr.reverse()));
 
 // =================================================================
 // 8-masala%
