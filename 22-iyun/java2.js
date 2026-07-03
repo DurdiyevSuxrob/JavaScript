@@ -8,9 +8,9 @@
 
 // let arr = ["olma", "anor"];
 // arr.push("uzum");
-// console.log(arr); 
+// console.log(arr);
 // =================================================
-// 3-masala! 
+// 3-masala!
 
 // let talabalar = [{ism:"Ali", ball:75}, {ism:"Vali", ball:40}, {ism:"Guli", ball:90}];
 // console.log(talabalar.findIndex((n)));
@@ -33,21 +33,19 @@
 //   }
 // }
 // =============================================================
-// 6-masala! 
-let stack = []
-for (let i = 1; i <= 5; i++) {
-    stack.push(i);
-}
-for (let i = 0; i <= 3; i++) {
-    popStack.push(stack.pop())
-}
-console.log('Jami stack da (${stack}) lar qoldi ');
-console.log('olib tashlangan mahsulotlar (${popStack.reverse()})  ');
-
+// 6-masala!
+// let stack = [];
+// let popStack = [];
+// for (let i = 1; i <= 5; i++) {
+//   stack.push(i);
+// }
+// for (let i = 0; i < 3; i++) {
+//   popStack.push(stack.pop());
+// }
+// console.log(`Jami stack da (${stack}) lar qoldi `);
+// console.log(`olib tashlangan mahsulotlar (${popStack.reverse()})`);
 
 // 7-masala!
-
-
 
 // =================================================================
 // 8-masala%
@@ -62,11 +60,11 @@ console.log('olib tashlangan mahsulotlar (${popStack.reverse()})  ');
 // let arr = [4, 8, 15, 16, 23, 42];
 // for (let val of arr.values()) {
 //     if (val > 10) {
-//         console.log(val); 
+//         console.log(val);
 //     }
 // }
 // =============================================================================
 // 10-masala
 // let sonlar = [12, 5, 8, 21, 3, 17];
 // let natija = sonlar.findLast((n) => n > 2);
-// console.log(natija); 
+// console.log(natija);
