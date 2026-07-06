@@ -153,23 +153,21 @@ for
 // console.log(vazifalar);
 // ========================================================================
 // metodlar//
-let matn = "Kecha juda kuchli yomg'ir shamol boldi va tinmay 2-soat yomg'ir yog'do!"
-let kattaHarf = matn.toUpperCase()
-console.log(kattaHarf);
+// let matn = "Kecha juda kuchli yomg'ir shamol boldi va tinmay 2-soat yomg'ir yog'do!"
+// let kattaHarf = matn.toUpperCase()
+// console.log(kattaHarf);
 
-let kichikHarf = matn.toLowerCase()
-console.log(kichikHarf);
+// let kichikHarf = matn.toLowerCase()
+// console.log(kichikHarf);
 
-console.log(matn.indexOf("yomg'ir")); //18
-console.log(matn.lastIndexOf("yomg'ir")); //56
+// console.log(matn.indexOf("yomg'ir")); //18
+// console.log(matn.lastIndexOf("yomg'ir")); //56
 
-console.log(matn.includes("shamolli")); //folse
-console.log(matn.startsWith("Kecha") ); //true
-console.log(matn.slice(0, 7));
-
-
-
+// console.log(matn.includes("shamolli")); //folse
+// console.log(matn.startsWith("Kecha") ); //true
+// console.log(matn.slice(0, 7));
 // console.log(matn);
+// ====================================================================
 
 
 
