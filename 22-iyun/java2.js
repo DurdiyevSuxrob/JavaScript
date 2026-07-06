@@ -74,6 +74,15 @@
 // console.log(natija);
 // ==============================================================================
 // 11-MASALA!
+let narxlar = [1000, 2500, 3200, 4700];
+
+
+
+
+
+
+
+
 // ========================================================================================
 // 12-masala%  "b" harfi massivda nechta marta uchrashini indexOf() dan foydalanib (tsikl yordamida) sanang.
 // let arr = ["a", "b", "c", "b", "d", "b"];
