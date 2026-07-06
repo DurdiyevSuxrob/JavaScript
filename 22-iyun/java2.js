@@ -146,6 +146,17 @@
 // console.log(vazifalar);
 // ========================================================================
 // metodlar//
+let matn = "Kecha juda kuchli shamol boldi va tinmay 2-soat yomg'ir yog'do!"
+let kattaHarf = matn.toUpperCase()
+console.log(kattaHarf);
+
+let kichikHarf = matn.toLowerCase()
+console.log(kichikHarf);
+
+
+
+console.log(matn);
+
 
 
 
