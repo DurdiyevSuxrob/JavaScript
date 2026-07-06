@@ -145,6 +145,7 @@
 // vazifalar.unshift("Eng muhim: byudjetni tasdiqlash")
 // console.log(vazifalar);
 // ========================================================================
+// metodlar//
 
 
 
