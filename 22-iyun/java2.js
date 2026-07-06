@@ -90,12 +90,14 @@
 // ====================================================================================
 // 15-masala!
 // =============================================================================
-// 16-masala
-let arr = ["login", "click", "scroll", "click", "logout", "click"];
-console.log(arr.lastIndexOf("click"));
+// 16-masala% "click" harakati oxirgi marta qaysi indeksda sodir bo'lganini toping.
 
-// 
-
+// let arr = ["login", "click", "scroll", "click", "logout", "click"];
+// console.log(arr.lastIndexOf("click"));
+// =============================================================================
+// 17-masala! 
+// =================================================================================
+// 18-masala%
 
 
 
