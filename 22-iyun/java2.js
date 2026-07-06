@@ -162,8 +162,6 @@ console.log(matn.slice(0, 7));
 
 
 
-.riwme
-
 // console.log(matn);
 
 
