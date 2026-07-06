@@ -132,6 +132,15 @@
 // sahifalar.pop()
 // console.log(sahifalar);
 // =================================================================================
+// 27-masala!
+// ====================================================================
+// 28-masala% "Eng muhim: byudjetni tasdiqlash" vazifasini ro'yxat boshiga unshift() bilan qo'shing, so'ng
+// barcha vazifalarni raqamlab chop eting.
+
+// let vazifalar = ["hujjatlarni tayyorlash"];
+// vazifalar.unshift("Eng muhim: byudjetni tasdiqlash")
+// console.log(vazifalar);
+// ========================================================================
 
 
 
