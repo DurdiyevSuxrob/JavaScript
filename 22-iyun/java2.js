@@ -74,10 +74,10 @@
 // console.log(natija);
 // ==============================================================================
 // 11-MASALA!
-let narxlar = [1000, 2500, 3200, 4700];
-narxlar.forEach((son, i) => {
-   console.log(`${i}-indeksdagi mahsulot narxi ${son*15/100+son} so'm`)
-}) 
+// let narxlar = [1000, 2500, 3200, 4700];
+// narxlar.forEach((son, i) => {
+//    console.log(`${i}-indeksdagi mahsulot narxi ${son*15/100+son} so'm`)
+// }) 
 // ========================================================================================
 // 12-masala%  "b" harfi massivda nechta marta uchrashini indexOf() dan foydalanib (tsikl yordamida) sanang.
 // let arr = ["a", "b", "c", "b", "d", "b"];
