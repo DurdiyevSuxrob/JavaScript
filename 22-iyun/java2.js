@@ -93,6 +93,13 @@
 // }
 // ====================================================================================
 // 15-masala!
+let taomlar = ["osh", "manti", "lag'mon"];
+for
+
+
+
+
+
 // =============================================================================
 // 16-masala% "click" harakati oxirgi marta qaysi indeksda sodir bo'lganini toping.
 
