@@ -33,7 +33,7 @@
 //   }
 // }
 // =============================================================
-// 6-masala!
+// 6-masala%
 // let stack = [];
 // let popStack = [];
 // for (let i = 1; i <= 5; i++) {
@@ -45,9 +45,11 @@
 // console.log(`Jami stack da (${stack}) lar qoldi `);
 // console.log(`olib tashlangan mahsulotlar (${popStack.reverse()})`);
 
-// 7-masala!
+// 7-masala%
 // let arr = ["JS", "dan", "salom"];
-// console.log($(arr.reverse()));
+// let vazifalar = arr.reduceRight((acc, cur) => acc.concat(cur), []);
+// console.log(vazifalar); 
+
 
 // =================================================================
 // 8-masala%
@@ -71,8 +73,21 @@
 // let natija = sonlar.findLast((n) => n > 2);
 // console.log(natija);
 // ==============================================================================
-// shift() yordamida vazifalarni birma-bir olib, bajarilgan massiviga push() qiling (tsikl bilan).
-let vazifalar = ["A vazifa", "B vazifa", "C vazifa"];
+// 11-MASALA!
+// ========================================================================================
+// 12-masala%  "b" harfi massivda nechta marta uchrashini indexOf() dan foydalanib (tsikl yordamida) sanang.
+// let arr = ["a", "b", "c", "b", "d", "b"];
+// console.log(arr.indexOf("b"));
+// ======================================================================================
+// 14-masala% while tsikli yordamida navbatdagi barcha mijozlarni shift() bilan xizmat ko'rsatish tartibida
+// konsolga chiqaring ("mijoz1 xizmat ko'rmoqda" kabi).
+
+// let navbat = ["mijoz1", "mijoz2", "mijoz3", "mijoz4"];
+// while (navbat.length > 0) {
+//     let mijoz = navbat.shift();
+//     console.log(`${mijoz} xizmat ko'rmoqda`);
+// }
+// ====================================================================================
 
 //
 // 
