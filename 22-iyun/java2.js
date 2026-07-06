@@ -88,8 +88,12 @@
 //     console.log(`${mijoz} xizmat ko'rmoqda`);
 // }
 // ====================================================================================
+// 15-masala!
+// =============================================================================
+// 16-masala
+let arr = ["login", "click", "scroll", "click", "logout", "click"];
+console.log(arr.lastIndexOf("click"));
 
-//
 // 
 
 
