@@ -124,6 +124,14 @@
 //   console.log(key); 
 // }
 // ========================================================================
+// 26-masala% Foydalanuvchi "orqaga" tugmasini bossa oxirgi sahifa pop() bilan olib tashlanadi. Buni 2 marta
+// simulyatsiya qiling va qolgan sahifalarni chop eting.
+
+// let sahifalar = ["bosh", "biz-haqimizda", "xizmatlar", "aloqa"];
+// sahifalar.pop()
+// sahifalar.pop()
+// console.log(sahifalar);
+// =================================================================================
 
 
 
