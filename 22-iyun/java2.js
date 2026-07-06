@@ -157,6 +157,7 @@ console.log(matn.indexOf("yomg'ir")); //18
 console.log(matn.lastIndexOf("yomg'ir")); //56
 
 console.log(matn.includes("shamolli")); //folse
+console.log(matn. );
 
 
 
