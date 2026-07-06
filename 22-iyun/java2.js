@@ -11,12 +11,9 @@
 // console.log(arr);
 // =================================================
 // 3-masala!
-
 // let talabalar = [{ism:"Ali", ball:75}, {ism:"Vali", ball:40}, {ism:"Guli", ball:90}];
 // console.log(talabalar.findIndex((n)));
-
 // let idx = talabalar.findIndex((n) => n > 35);
-
 // ================================================================
 // 4-masala% 2-indeksdan boshlab 2 ta elementni o'chirib, o'rniga 100 va 200 sonlarini joylashtiring. Natijani chop eting.
 
