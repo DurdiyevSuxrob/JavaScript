@@ -186,8 +186,11 @@
 // =====================================================================================
 // 29-masala
 let arr = [55, 70, 43, 88, 91];
+let sonoq = 0
 for (let val of arr.values()) {
-  console.log(val); // a, b, c
+  console.log(val);
+  console.log(arr < 60);
+  
 }
 
 
