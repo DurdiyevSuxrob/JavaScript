@@ -124,7 +124,16 @@
 // console.log(arr.push("Matematika: 5", "Kimyo: 3"));
 // console.log(arr);
 // ======================================================================
-// 23-24!
+// 24!
+// ============================================================================
+// 23-masala
+// let mahsulotlar = [{nom:"stol", narx:150000}, {nom:"stul", narx:45000}, {nom:"shkaf", narx:300000}];
+// mahsulotlar.forEach((mahsulot, i) => {
+//    let qiymati = Object.values(mahsulot)[1]
+//    if ( qiymati > 100000) {
+      
+//    }
+// })
 // ===========================================================================
 // 25-masala%
 // let arr = ["x", "y", "z"];
@@ -171,13 +180,7 @@
     
 // }
 // ============================================================================
-let mahsulotlar = [{nom:"stol", narx:150000}, {nom:"stul", narx:45000}, {nom:"shkaf", narx:300000}];
-mahsulotlar.forEach((mahsulot, i) => {
-   let qiymati = Object.values(mahsulot)[1]
-   if ( qiymati > 100000) {
-      
-   }
-})
+
 // =====================================================================================
 
 
