@@ -171,13 +171,15 @@
     
 // }
 // ============================================================================
-// let mahsulotlar = [{nom:"stol", narx:150000}, {nom:"stul", narx:45000}, {nom:"shkaf", narx:300000}];
-// mahsulotlar.forEach((mahsulot, i) => {
-
-// } )
+let mahsulotlar = [{nom:"stol", narx:150000}, {nom:"stul", narx:45000}, {nom:"shkaf", narx:300000}];
+mahsulotlar.forEach((mahsulot, i) => {
+   let qiymati = Object.values(mahsulot)[1]
+   if ( qiymati > 100000) {
+      
+   }
+})
 // =====================================================================================
-// replace
-matn.
+
 
 
 
