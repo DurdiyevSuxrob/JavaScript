@@ -166,7 +166,10 @@
 // console.log(matn);
 // ====================================================================
 let mahsulotlar = ["non", "sut", "tuxim"]
-for (let i of )
+for (let i of mahsulotlar.entries()) {
+    console.log('#$ {i[0]} - ${i[1]} ');
+    
+}
 
 
 
