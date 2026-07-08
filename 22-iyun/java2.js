@@ -165,7 +165,8 @@
 // console.log(matn.slice(0, 7));
 // console.log(matn);
 // ====================================================================
-
+let mahsulotlar = ["non", "sut", "tuxim"]
+for (let i of )
 
 
 
