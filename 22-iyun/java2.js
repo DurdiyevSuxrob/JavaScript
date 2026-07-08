@@ -165,11 +165,11 @@
 // console.log(matn.slice(0, 7));
 // console.log(matn);
 // ====================================================================
-let mahsulotlar = ["non", "sut", "tuxim"]
+let mahsulotlar = ["non", "sut", "tuxum"];
 for (let i of mahsulotlar.entries()) {
-    console.log(`#${i[0]} - ${i[1]} `);
+    console.log(`#${i[0]} - ${i[1]}`);
+    
 }
-
 
 
 
