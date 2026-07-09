@@ -15,10 +15,8 @@
 // 4-masala!
 // ===================================================================================================
 // 5-masala%
-let son = ["WEB DASTURLASH"]
-let natija = (son.toLowerCase());
-console.log(son);
-
+let matn = "WEB DASTURLASH";
+console.log(matn.toLowerCase());
 
 
 
