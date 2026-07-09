@@ -8,6 +8,31 @@
 // let natija = son.length; 
 // console.log(natija);
 // ==========================================================================================
-// 3-masala
-const matn = "Dasturlash";
-console.log(matn[5]); 
+// 3-masala% chatgbt
+// const matn = "Dasturlash";
+// console.log(matn[5]); 
+// ================================================================================================
+4-masala
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
