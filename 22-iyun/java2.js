@@ -184,14 +184,13 @@
 // arr.splice(3, 0,  99)
 // console.log(arr);
 // =====================================================================================
-// 29-masala
-let arr = [55, 70, 43, 88, 91];
-let sonoq = 0
-for (let val of arr.values()) {
-  console.log(val);
-  console.log(arr < 60);
-  
-}
+// 29-masala!
+// let arr = [55, 70, 43, 88, 91];
+// let sonoq = 0
+// for (let val of arr.values()) {
+//   console.log(val);
+//   console.log(arr < 60);
+// }
 
 
 
