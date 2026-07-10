@@ -29,6 +29,20 @@
 // let natija = son.endsWith("!");
 // console.log(natija); 
 // ===============================================================================
+// 9-masala%
+// let son = "Men js o'rganyapman";
+// let natija = son.startsWith("js");
+// console.log(natija);
+// ============================================================================
+// 10-masala%
+// let son = "ha"
+// console.log("ha".padEnd(6, "ha"))
+// ==============================================================================
+// 11-masala!
+// ================================================================================
+// 12-masala
+let son = "javascript"
+console.log(son.toUpperCase("j"));
 
 
 
