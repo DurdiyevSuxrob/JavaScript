@@ -69,6 +69,8 @@
 // let son = "JavaScript";
 // let natija = son.split("").reverse().join("");
 // console.log(natija);
+// =======================================================================================
+// 19-masala
 
 
 
