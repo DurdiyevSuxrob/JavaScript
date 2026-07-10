@@ -50,9 +50,11 @@
 // let son = "salom"
 // console.log(son.replace("salom", "solom"))
 // ================================================================================
-// 15-masala
-// let son = "Dasturlash"
-
+// 15-masala%
+// let son = "Dasturlash";
+// let natija = son.slice(-4);
+// console.log(natija);
+// ==================================================================================
 
 
 
