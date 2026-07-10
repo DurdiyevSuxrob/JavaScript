@@ -65,7 +65,7 @@
 // let natija = son.slice(4)
 // console.log(natija);
 // ======================================================================================
-// 18-masala chatgbt
+// 18-masala!
 let son = "JavaScript";
 let natija = son.reverse("JavaScript");
 console.log(natija);
