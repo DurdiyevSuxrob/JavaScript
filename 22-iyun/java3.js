@@ -65,9 +65,10 @@
 // let natija = son.slice(4)
 // console.log(natija);
 // ======================================================================================
-// 18-masala
-
-
+// 18-masala chatgbt
+// let son = "JavaScript";
+// let natija = son.split("").reverse().join("");
+// console.log(natija);
 
 
 
