@@ -70,7 +70,11 @@
 // let natija = son.reverse("JavaScript");
 // console.log(natija);
 // =======================================================================================
-// 19-masala
+// 19-masala%
+// let son = "Dasturlash";
+// let natija = son.endsWith("h");
+// console.log(natija); 
+// ==================================================================================
 
 
 
