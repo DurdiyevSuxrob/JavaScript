@@ -75,7 +75,9 @@
 // let natija = son.endsWith("h");
 // console.log(natija); 
 // ==================================================================================
-
+// 20-masala
+let son = "Men olma yedim"
+console.log(son.replace("olma", "anor"))
 
 
 
