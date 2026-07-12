@@ -91,10 +91,18 @@
 // let natija = son.endsWith("3")
 // console.log(natija);
 // ===============================================================================
-// 25-masala%
-let son = "   JavaScript   "
-let natija = son.endsWith( )
-console.log(son);
+// 25-masala!
+// let son = "   JavaScript   "
+// let natija = son.endsWith( )
+// console.log(son);
+// =====================================================================================
+// 26-masala%
+// let son =  "document.pdf"
+// let natija = son.slice(9)
+// console.log(natija);
+// ================================================================================
+
+
 
 
 
