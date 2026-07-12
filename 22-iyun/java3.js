@@ -82,9 +82,15 @@
 // 21-22masala!
 // ====================================================================================
 // 23-masala%
-let son =  "Dasturlash"
-let natija = son.slice(1, 7, 8)
-console.log(natija);
+// let son =  "Dasturlash"
+// let natija = son.slice(1, 7, 8)
+// console.log(natija);
+// ==============================================================================
+// 24-masala%
+// let son = "Salom123"
+// let natija = son.endsWith("3")
+// console.log(natija);
+// ===============================================================================
 
 
 
