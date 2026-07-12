@@ -66,9 +66,9 @@
 // console.log(natija);
 // ======================================================================================
 // 18-masala!
-let son = "JavaScript";
-let natija = son.reverse("JavaScript");
-console.log(natija);
+// let son = "JavaScript";
+// let natija = son.reverse("JavaScript");
+// console.log(natija);
 // =======================================================================================
 // 19-masala
 
