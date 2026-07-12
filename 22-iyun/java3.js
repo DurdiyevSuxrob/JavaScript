@@ -92,6 +92,10 @@
 // console.log(natija);
 // ===============================================================================
 // 25-masala%
+let son = "   JavaScript   "
+let natija = son.endsWith( )
+console.log(son);
+
 
 
 
