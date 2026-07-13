@@ -92,18 +92,19 @@
 // console.log(natija);
 // ===============================================================================
 // 25-masala!
-// let son = "   JavaScript   "
-// let natija = son.endsWith( )
+let son = "   JavaScript   "
+let natija = son.trim( )
 // console.log(son);
+console.log(natija);
 // =====================================================================================
 // 26-masala%
 // let son =  "document.pdf"
 // let natija = son.slice(9)
 // console.log(natija);
 // ================================================================================
-// 27-masala!
+// 27-masala%
 // let son = "abc"
-// let natija = son.startsWith("10, '*")
+// let natija = son.padEnd("10", "*")
 // console.log(natija);
 // ========================================================================================
 // 28-masala%
@@ -126,9 +127,9 @@
 // let natija = son.endsWith("m");
 // console.log(natija); 
 // =============================================================================================
-// 32-masala!
-let son = "Mening Blog Postim"
-console.log(son.toUpperCase());
+// 32-masala%
+// let son = "Mening Blog Postim"
+// console.log(son.toUpperCase().replaceAll(" ", "-"));
 // ========================================================================================
 // 33-masala%
 // let son = "JavaScript"
