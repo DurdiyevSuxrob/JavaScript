@@ -122,9 +122,14 @@
 // console.log(natija);
 // ===========================================================================================
 // 31-masala%
-let son = "https://google.com";
-let natija = son.endsWith("m");
-console.log(natija); 
+// let son = "https://google.com";
+// let natija = son.endsWith("m");
+// console.log(natija); 
+// =============================================================================================
+// 32-masala!
+// let son = "Mening Blog Postim"
+// console.log(son.split("-"));
+// ========================================================================================
 
 
 
