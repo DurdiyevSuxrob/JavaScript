@@ -79,7 +79,13 @@
 // let son = "Men olma yedim"
 // console.log(son.replace("olma", "anor"))
 // =================================================================================
-// 21-22masala!
+// 21-masala%
+// let son = "Dasturlash"
+// console.log(son.slice(2, 7));
+// ========================================================================
+// 22-masala%
+let son = ["Men", "o'qiyman"],
+
 // ====================================================================================
 // 23-masala%
 // let son =  "Dasturlash"
@@ -91,11 +97,10 @@
 // let natija = son.endsWith("3")
 // console.log(natija);
 // ===============================================================================
-// 25-masala!
-let son = "   JavaScript   "
-let natija = son.trim( )
-// console.log(son);
-console.log(natija);
+// 25-masala%
+// let son = "   JavaScript   "
+// let natija = son.trim( )
+// console.log(natija);
 // =====================================================================================
 // 26-masala%
 // let son =  "document.pdf"
