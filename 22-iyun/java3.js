@@ -127,8 +127,8 @@
 // console.log(natija); 
 // =============================================================================================
 // 32-masala!
-// let son = "Mening Blog Postim"
-// console.log(son.split("-"));
+let son = "Mening Blog Postim"
+console.log(son.toUpperCase());
 // ========================================================================================
 // 33-masala%
 // let son = "JavaScript"
@@ -140,12 +140,15 @@
 // let natija = son.split(" ")
 // console.log(natija.length);
 // =============================================================================================
-// 35-masala!
+// 35-masala%
 // let son = "a1b2c3"
-// let natija = son.replace(1, 3,  5)
-// console.log(natija);
+// let a = son.match(/\d/g).join("")
+// console.log(a);
 // =========================================================================================
-// 36-masala!
+// 36-masala%
+// let son = "123"
+// let natija = son.padEnd("5", ".")
+// console.log(natija);
 // ============================================================================================
 // 37-masala%
 // let son =  "jAVAsCRIPT"
