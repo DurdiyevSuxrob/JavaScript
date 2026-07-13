@@ -148,9 +148,10 @@
 // 36-masala!
 // ============================================================================================
 // 37-masala%
-let son =  "jAVAsCRIPT"
-let natija = son.toUpperCase()
-console.log(natija);
+// let son =  "jAVAsCRIPT"
+// console.log(son.charAt(0).toUpperCase() + son.slice(1).toLowerCase());
+// =============================================================================================
+
 
 
 
