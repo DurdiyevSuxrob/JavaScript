@@ -40,6 +40,14 @@ const shoxruzbek = {
   inglizTiliniOrganmoqda: true,
   baholari: [5, 5, 4, 5, 5]
 };
+shoxruzbek.lager = "Lagerga bormadi"
+console.log(Object.values(shoxruzbek));
+console.log(Object.keys(shoxruzbek));
+console.log(Object.entries(shoxruzbek[40]));
+
+
+
+
 
 
 
