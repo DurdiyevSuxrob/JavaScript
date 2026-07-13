@@ -101,10 +101,12 @@
 // let natija = son.slice(9)
 // console.log(natija);
 // ================================================================================
-// 27-masala%
-let son = "abc"
-let natija = son.startsWith("10, '*")
-console.log(natija);
+// 27-masala!
+// let son = "abc"
+// let natija = son.startsWith("10, '*")
+// console.log(natija);
+// ========================================================================================
+
 
 
 
