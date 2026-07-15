@@ -5,17 +5,17 @@
 // =====================================================================================
 // 2-masala%
 // let son = ["JavaScript"]
-// let natija = son.length; 
+// let natija = son.length;
 // console.log(natija);
 // ==========================================================================================
-// 3-masala% 
+// 3-masala%
 // const matn = "Dasturlash";
-// console.log(matn[5]); 
+// console.log(matn[5]);
 // ================================================================================================
 // 4-masala%
 // let son = "Hello world";
 // let natija = son.endsWith("d");
-// console.log(natija); 
+// console.log(natija);
 // ===================================================================================================
 // 5-masala%
 // let matn = "WEB DASTURLASH";
@@ -33,7 +33,7 @@
 // 8-masala%
 // let son = "Assalomu alaykum!";
 // let natija = son.endsWith("!");
-// console.log(natija); 
+// console.log(natija);
 // ===============================================================================
 // 9-masala%
 // let son = "Men js o'rganyapman";
@@ -52,7 +52,7 @@
 // 12-masala%
 // let word = "javascript";
 // let capitalized = word[0].toUpperCase() + word.slice(1);
-// console.log(capitalized); 
+// console.log(capitalized);
 // ===================================================================================
 // 13-masala%
 // let matn = prompt("Gapingizni yozing:");
@@ -84,7 +84,7 @@
 // 19-masala%
 // let son = "Dasturlash";
 // let natija = son.endsWith("h");
-// console.log(natija); 
+// console.log(natija);
 // ==================================================================================
 // 20-masala%
 // let son = "Men olma yedim"
@@ -141,7 +141,7 @@
 // 31-masala%
 // let son = "https://google.com";
 // let natija = son.endsWith("m");
-// console.log(natija); 
+// console.log(natija);
 // =============================================================================================
 // 32-masala%
 // let son = "Mening Blog Postim"
@@ -202,9 +202,18 @@
 // let son = "kiyikm";
 // let natija = son === son.split("").reverse().join("");
 // console.log(natija);
-// 43-masala!
-let son = "salom"
-let natija = son.
+// 43-masala%
+// let son = "salom";
+// let natija = son.split("");
+// let unlilar = ["a", "e", "i", "o", "u"];
+// let newText = []
+// for (let i of natija) {
+//     if(!unlilar.includes(i)) {
+//         newText.push(i)
+//     }
+// }
+// console.log(newText.join(" "));
+
 // =====================================================================
 // 44-masala%
 // let son = "men dastur yozaman";
@@ -212,29 +221,4 @@ let natija = son.
 // console.log(natija);
 // ======================================================================
 // 45-masala%
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
