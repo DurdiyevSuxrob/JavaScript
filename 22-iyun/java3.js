@@ -45,8 +45,14 @@
 // console.log("ha".padEnd(6, "ha"))
 // ==============================================================================
 // 11-masala!
+// let son = ["Ali", "Karimov"]
+// let natija = son.slice( ",")
+// console.log(natija);
 // ================================================================================
-// 12-masala!
+// 12-masala%
+// let word = "javascript";
+// let capitalized = word[0].toUpperCase() + word.slice(1);
+// console.log(capitalized); 
 // ===================================================================================
 // 13-masala%
 // let matn = prompt("Gapingizni yozing:");
@@ -165,6 +171,7 @@
 // let son =  "jAVAsCRIPT"
 // console.log(son.charAt(0).toUpperCase() + son.slice(1).toLowerCase());
 // =============================================================================================
+// 38-masala%
 
 
 
