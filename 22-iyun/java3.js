@@ -181,18 +181,22 @@
 // console.log(natija);
 // ============================================================================
 // 40-masala%
-let matn = prompt("Matn kiriting:")
-let belgisoni = {}
-let maksimonsoni = 0
-let engKopBelgi = ""
-for (let i of matn) {
-    belgisoni
-}
+// let matn = prompt("Matn kiriting:")
+// let belgisoni = {}
+// let maksimonsoni = 0
+// let engKopBelgi = ""
+// for (let i of matn) {
+//     belgisoni[i] = (belgisoni[i] ||)
+// }
 
 // ====================================================================================
-// 41-masala!
-let son =  "salom dunyo uzbekiston"
-console.log(son.charAt(0).toUpperCase() + son.slice(1).toLowerCase());
+// 41-masala%
+// let title = "salom dunyo uzbekiston";
+// let titled = title
+//   .split(" ")
+//   .map((w) => w[0].toUpperCase() + w.slice(1))
+//   .join(" ");
+// console.log(titled);
 // =========================================================================
 // 42-masala%
 // let son = "kiyikm";
@@ -209,6 +213,7 @@ console.log(son.charAt(0).toUpperCase() + son.slice(1).toLowerCase());
 // console.log(natija);
 // ======================================================================
 // 45-masala%
+
 
 
 
