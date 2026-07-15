@@ -12,7 +12,10 @@
 // const matn = "Dasturlash";
 // console.log(matn[5]); 
 // ================================================================================================
-// 4-masala!
+// 4-masala%
+// let son = "Hello world";
+// let natija = son.endsWith("d");
+// console.log(natija); 
 // ===================================================================================================
 // 5-masala%
 // let matn = "WEB DASTURLASH";
@@ -22,7 +25,10 @@
 // let matn = "Kompyuter"
 // console.log(matn[3]);
 // =================================================================================
-// 7-masala!
+// 7-masala%
+// let son = "   salom   "
+// let natija = son.trim( )
+// console.log(natija);
 // ==================================================================================
 // 8-masala%
 // let son = "Assalomu alaykum!";
@@ -65,9 +71,9 @@
 // let natija = son.slice(4)
 // console.log(natija);
 // ======================================================================================
-// 18-masala!
-let son = "JavaScript";
-console.log(son.split("").reverse().join(""));
+// 18-masala%
+// let son = "JavaScript";
+// console.log(son.split("").reverse().join(""));
 // =======================================================================================
 // 19-masala%
 // let son = "Dasturlash";
