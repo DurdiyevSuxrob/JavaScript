@@ -44,9 +44,9 @@
 // let son = "ha"
 // console.log("ha".padEnd(6, "ha"))
 // ==============================================================================
-// 11-masala!
+// 11-masala%
 // let son = ["Ali", "Karimov"]
-// let natija = son.slice( ",")
+// let natija = son.join(" ")
 // console.log(natija);
 // ================================================================================
 // 12-masala%
@@ -183,8 +183,8 @@
 // 40-masala!
 // ====================================================================================
 // 41-masala!
-// let son =  "salom dunyo uzbekiston"
-// console.log(son.charAt(0).toUpperCase() + son.slice(1).toLowerCase());
+let son =  "salom dunyo uzbekiston"
+console.log(son.charAt(0).toUpperCase() + son.slice(1).toLowerCase());
 // =========================================================================
 // 42-masala%
 // let son = "kiyikm";
