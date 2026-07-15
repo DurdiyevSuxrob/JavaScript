@@ -180,7 +180,14 @@
 // let natija = son.split("a")
 // console.log(natija);
 // ============================================================================
-// 40-masala!
+// 40-masala%
+let matn = prompt("Matn kiriting:")
+let belgisoni = {}
+let maksimonsoni = 0
+let engKopBelgi = ""
+for (let i of matn) {
+    belgisoni
+}
 
 // ====================================================================================
 // 41-masala!
