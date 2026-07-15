@@ -180,7 +180,27 @@
 // let natija = son.split("a")
 // console.log(natija);
 // ============================================================================
-// 40-masala%
+// 40-masala!
+// ====================================================================================
+// 41-masala!
+// let son =  "salom dunyo uzbekiston"
+// console.log(son.charAt(0).toUpperCase() + son.slice(1).toLowerCase());
+// =========================================================================
+// 42-masala%
+// let son = "kiyikm";
+// let natija = son === son.split("").reverse().join("");
+// console.log(natija);
+// 43-masala!
+// let son = "salom"
+// let natija = son.slice("1", "4")
+// console.log(natija);
+// =====================================================================
+// 44-masala%
+// let son = "men dastur yozaman";
+// let natija = son.split(" ").reverse().join(" ");
+// console.log(natija);
+// ======================================================================
+// 45-masala%
 
 
 
