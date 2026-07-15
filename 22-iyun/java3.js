@@ -203,9 +203,8 @@
 // let natija = son === son.split("").reverse().join("");
 // console.log(natija);
 // 43-masala!
-// let son = "salom"
-// let natija = son.slice("1", "4")
-// console.log(natija);
+let son = "salom"
+let natija = son.
 // =====================================================================
 // 44-masala%
 // let son = "men dastur yozaman";
