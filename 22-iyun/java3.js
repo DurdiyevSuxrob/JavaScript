@@ -196,9 +196,9 @@
 // console.log(natija);
 // =====================================================================
 // 44-masala%
-let son = "men dastur yozaman";
-let natija = son.split(" ").reverse().join(" ");
-console.log(natija);
+// let son = "men dastur yozaman";
+// let natija = son.split(" ").reverse().join(" ");
+// console.log(natija);
 // ======================================================================
 // 45-masala%
 
