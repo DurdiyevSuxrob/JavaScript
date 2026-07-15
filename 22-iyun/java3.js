@@ -221,4 +221,13 @@
 // console.log(natija);
 // ======================================================================
 // 45-masala%
+let matn = "a1b2c3d4"
+let arr = yigindi = 0;
+for (let i of matn.split("")) {
+    if (parseInt()) {
+        
+    }
+}
+
+
 
