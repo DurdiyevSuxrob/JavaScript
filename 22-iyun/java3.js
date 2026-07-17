@@ -248,16 +248,16 @@
 // console.log(array);
 // =======================================================================================
 // 3.16%
-// const str = "elephant";
-// const indexes = [];
+const str = "elephant";
+const indexes = [];
 
-// for (let i = 0; i < str.length; i++) {
-//     if (str[i] === "e") {
-//         indexes.push(i);
-//     }
-// }
+for (let i = 0; i < str.length; i++) {
+    if (str[i] === "e") {
+        indexes.push(i);
+    }
+}
 
-// console.log(indexes); // [0, 2]
+console.log(indexes); 
 // =======================================================================================
 // 3.17%
 // let son = "123"
