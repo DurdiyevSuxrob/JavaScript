@@ -228,6 +228,8 @@ for (let i of matn.split("")) {
         
     }
 }
+console.log(matn);
+
 
 
 
