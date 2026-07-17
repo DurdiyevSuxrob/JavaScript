@@ -4,12 +4,17 @@
 // }
 // sonKop(10, 15, 20)
 // ======================================================================================
-const son = function (a, b, c) {
-    console.log(a * b * c);
-    console.log(a / b / c);
-}
-son(10, 20, 30)
- 
+// const son = function (a, b, c) {
+//     console.log(a * b * c);
+//     console.log(a / b / c);
+// }
+// son(10, 20, 30)
+//  =======================================================================================
+const son = (a, b, c) => a * b * c;
+const sonn = (a, b, c) => a / b / c;
+console.log(son(3, 3, 3), sonn(3,3,3));
+
+
 
 
 
