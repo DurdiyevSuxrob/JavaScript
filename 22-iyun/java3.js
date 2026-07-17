@@ -242,8 +242,10 @@
 // let natija = son.length
 // console.log(natija);
 // =============================================================================================
-
-
+// 3.15.%
+const matn = "a|b|c|d";
+const array = matn.split("|");  
+console.log(array);
 
 
 
