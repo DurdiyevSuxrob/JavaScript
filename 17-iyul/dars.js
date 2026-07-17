@@ -1,4 +1,7 @@
-function ob
+function ekranga matn chiqar() {
+    console.log( ekran);
+    
+}
 
 
 
