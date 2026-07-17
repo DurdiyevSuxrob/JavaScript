@@ -202,6 +202,7 @@
 // let son = "kiyikm";
 // let natija = son === son.split("").reverse().join("");
 // console.log(natija);
+// ================================================================================
 // 43-masala%
 // let son = "salom";
 // let natija = son.split("");
@@ -230,6 +231,7 @@
 // }
 // console.log(yigindi);
 // 46-masala%
+
 
 
 
