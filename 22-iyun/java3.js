@@ -248,22 +248,26 @@
 // console.log(array);
 // =======================================================================================
 // 3.16%
-const str = "elephant";
-const indexes = [];
+// const str = "elephant";
+// const indexes = [];
 
-for (let i = 0; i < str.length; i++) {
-    if (str[i] === "e") {
-        indexes.push(i);
-    }
-}
+// for (let i = 0; i < str.length; i++) {
+//     if (str[i] === "e") {
+//         indexes.push(i);
+//     }
+// }
 
-console.log(indexes); 
+// console.log(indexes); 
 // =======================================================================================
 // 3.17%
 // let son = "123"
 // let natija = son.padEnd("5", "#")
 // console.log(natija);
 // ==============================================================================
-
+// 3.18%
+// let son =  "JavaScript"
+// let natija = son[2] + son[4]
+// console.log(natija);
+// ===========================================================================================
 
 
