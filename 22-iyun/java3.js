@@ -274,6 +274,7 @@
 // let natija = son.endsWith("m");
 // console.log(natija);
 // ============================================================================================
-
-let son = "salem"
-console.log(son.replace("a", "e"))
+// 3.23%
+// let son = "salem"
+// let natija = son.endsWith("m")
+// console.log(natija);
