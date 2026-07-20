@@ -7,12 +7,13 @@
 // const son = function (a, b, c) {
 //     console.log(a * b * c);
 //     console.log(a / b / c);
-// }
+// }0
 // son(10, 20, 30)
 //  =======================================================================================
-const son = (a, b, c) => a * b * c;
-const sonn = (a, b, c) => a / b / c;
-console.log(son(3, 3, 3), sonn(3,3,3));
+// const son = (a, b, c) => a * b * c;
+// const sonn = (a, b, c) => a / b / c;
+// console.log(son(3, 3, 3), sonn(3,3,3));
+// ====================================================================================
 
 
 
