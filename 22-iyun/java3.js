@@ -279,12 +279,13 @@
 // let natija = son.endsWith("m")
 // console.log(natija);
 // =========================================================================================
-// 3.24
-let matn = "abcdefghi"
-let natija = []
-for (let i = 0; i <= matn.length; i += 3) {
-    
-}
+// 3.24%
+// let matn = "abcdefghi"
+// let natija = []
+// for (let i = 0; i <= matn.length; i += 3) {
+//     natija.push(matn.slice(i, i+3))
+// }
+// console.log(natija);
 // ============================================================================================
 // 3.25%
 // let son = "Men 25 yoshdaman"
@@ -295,4 +296,5 @@ for (let i = 0; i <= matn.length; i += 3) {
 // let son = "salom"
 // let natija = son.split("")
 // console.log(natija);
+// =======================================================================================
 
