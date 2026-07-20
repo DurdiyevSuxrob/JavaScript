@@ -231,12 +231,20 @@
 // }
 // console.log(yigindi);
 // ==================================================================================
-// 46-masala!
+// 46-masala%
+// let matn = "myVariableName"; 
+// let snakeCase = matn.replace(/[A-Z]/g, harf => "_" + harf.toLowerCase());
+// console.log(snakeCase);;
 // ======================================================================================
 // 47-masala%
+// let matn = "men dastur yozaman"
+// let arr = matn.split(" ")
+// let uzunlik = []
+// for (let i of arr) {
+//     uzunlik.push(i.length)
+// }
+// console.log(uzunlik);
 // =========================================================================================
-
-
 // 3.14. %
 // let son = "salom dunyo"
 // let natija = son.length
@@ -297,5 +305,5 @@
 // let natija = son.split("")
 // console.log(natija);
 // =======================================================================================
-// 3.27
+// 
 
