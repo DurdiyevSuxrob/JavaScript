@@ -51,23 +51,23 @@
 // console.log(Object.entries(shoxruzbek)[5]);
 // console.log(Object.entries(shoxruzbek)[6]);
 // =======================================================================================
-const Obyekt = {
-  ism: "suxrob",
-  kasbi: "Dsturchi",
-  arr: [1,2,3,4,5,6],
-  suxrob: function () {
-    for (let i of this.arr) {
-      if (i % 2 == 0) {
-        console.log(i);
-      }
-    }
-  },
-  arrowFunksiya: () => {
-    console.log(this.ism);
-  },
-};
-Obyekt.suxrob();
-Obyekt.arrowFunksiya();
+// const Obyekt = {
+//   ism: "suxrob",
+//   kasbi: "Dsturchi",
+//   arr: [1,2,3,4,5,6],
+//   suxrob: function () {
+//     for (let i of this.arr) {
+//       if (i % 2 == 0) {
+//         console.log(i);
+//       }
+//     }
+//   },
+//   arrowFunksiya: () => {
+//     console.log(this.ism);
+//   },
+// };
+// Obyekt.suxrob();
+// Obyekt.arrowFunksiya();
 
 
 
