@@ -287,3 +287,7 @@
 // console.log(natija);
 // =========================================================================================
 // 3.26%
+let son = "salom"
+let natija = son.split("")
+console.log(natija);
+
