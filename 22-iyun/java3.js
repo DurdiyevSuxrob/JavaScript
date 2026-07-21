@@ -360,9 +360,10 @@
 // let natija = son.padStart(4, 0)
 // console.log(natija);
 // ================================================================================================
-// 3.39
-
-
+// 3.39!
+// let matn = "salom dunyo";
+// let natija = matn.replaceAll(" ", "").length;
+// console.log(natija);
 
 
 
