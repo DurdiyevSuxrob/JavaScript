@@ -364,9 +364,16 @@
 // let matn = "salom dunyo";
 // let natija = matn.replaceAll(" ", "").length;
 // console.log(natija);
-
-
-
+// ===============================================================================================
+// 3.40%
+// const matn = "hello";
+// const natija = [];
+// for (let i = 0; i < matn.length; i++) {
+//   if (matn[i] === "l") {
+//     natija.push(i);
+//   }
+// }
+// console.log(natija);
 
 
 
