@@ -393,7 +393,7 @@
 // =========================================================================================
 // 4.2%
 let son = "ali@gmail.com"
-let natija = son.endsWith("m")
+let natija = son.endsWith("ali@gmail.com")
 console.log(natija);
 
 
