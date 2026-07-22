@@ -14,29 +14,29 @@
 // const sonn = (a, b, c) => a / b / c;
 // console.log(son(3, 3, 3), sonn(3,3,3));
 // ====================================================================================
-function userData(){
-    let ism = prompt("Isimingizni kiriting")
-    let familiya = prompt("Familiyangizni kiriting")
+// function userData(){
+//     let ism = prompt("Isimingizni kiriting")
+//     let familiya = prompt("Familiyangizni kiriting")
    
-    let malumoti = `Sizning ismingiz ${ism}, familiyangiz ${familiya} va yoshingiz ${yosh}da!`
+//     let malumoti = `Sizning ismingiz ${ism}, familiyangiz ${familiya} va yoshingiz ${yosh}da!`
 
-    console.log(malumoti);
+//     console.log(malumoti);
     
-}
-userData()
+// }
+// userData()
 // =============================================================================
 
-function daraja(a){
-    return a**2
-}
-console.log(daraja(2));
+// function daraja(a){
+//     return a**2
+// }
+// console.log(daraja(2));
 // ================================================================================
-function darajaa(b){
-    console.log(b**3);
-    return ""
+// function darajaa(b){
+//     console.log(b**3);
+//     return ""
     
-}
-
+// }
+// ====================================================================================
 
 
 
