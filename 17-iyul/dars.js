@@ -33,9 +33,12 @@
 // ================================================================================
 // function darajaa(b){
 //     console.log(b**3);
-//     return ""
+//     return "Return funksiya qaytaradi"
     
 // }
+//  darajaa(2)
+//  console.log(darajaa(2));
+ 
 // ====================================================================================
 // function qoshish(a, b) {
 //     return a + b;
