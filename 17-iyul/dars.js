@@ -59,12 +59,14 @@
 // ===================================================================================================
 function masala2(son) {
     if (son > 0) {
-        return "bu son marfiy"
-    } else   {
-        return "bu son musbat"
-    } 
+        return "nusbat"
+    } else {
+        return "marfiy"
+    }
 }
 console.log(masala2);
+
+    
 
 
 
