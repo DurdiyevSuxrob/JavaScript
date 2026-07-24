@@ -58,7 +58,9 @@
 // console.log(masala1(2, 3));
 // ===================================================================================================
 function masala2(son) {
-    if (son > 0)
+    if (son > 0) {
+        return "bu son marfiy"
+    } if else ()
 }
 
 
