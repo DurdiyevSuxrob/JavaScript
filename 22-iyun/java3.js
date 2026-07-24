@@ -392,8 +392,8 @@
 // // console.log(arr)
 // =========================================================================================
 // 4.2%
-let son = "ali@gmail.com"
-let natija = son.endsWith("ali@gmail.com")
+let son = "aldfghkjlji@gmail.com"
+let natija = son.endsWith("@gmail.com")
 console.log(natija);
 
 
