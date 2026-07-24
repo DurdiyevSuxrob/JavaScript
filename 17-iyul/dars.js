@@ -97,7 +97,7 @@ function masala5(son) {
     }
     return S
  }
- console.log(masala4(100));
+ console.log(masala5(100));
 
 
 
