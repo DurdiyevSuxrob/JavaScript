@@ -82,5 +82,11 @@
 // console.log(masala3(18));
 // =================================================================================================
  function masala4(son) {
-    
+    let S = 0 
+    for (let i = 1; i <= son; i++) {
+        S += i
+    }
+    return S
  }
+ console.log(masala4(100));
+ 
