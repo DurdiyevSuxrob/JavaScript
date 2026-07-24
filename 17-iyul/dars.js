@@ -60,7 +60,9 @@
 function masala2(son) {
     if (son > 0) {
         return "bu son marfiy"
-    } if else ()
+    } if  ( son < 0) {
+        return "bu son musbat"
+    }
 }
 
 
