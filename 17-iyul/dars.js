@@ -68,15 +68,17 @@
 // }
 // console.log(masala2(-1));
 // ================================================================================================
-function masala3(yosh) {
-  if (yosh < 0) {
-    return "Iltimos manfiy son kiritmang";
-  } else if (yosh >= 0 && yosh <= 12) {
-    return "bolalik";
-  } else if (yosh >= 13 && yosh <= 17) {
-    return "o'smirlik";
-  } else {
-    return "katta";
-  }
-}
-console.log(masala3(18));
+// function masala3(yosh) {
+//   if (yosh < 0) {
+//     return "Iltimos manfiy son kiritmang";
+//   } else if (yosh >= 0 && yosh <= 12) {
+//     return "bolalik";
+//   } else if (yosh >= 13 && yosh <= 17) {
+//     return "o'smirlik";
+//   } else {
+//     return "katta";
+//   }
+// }
+// console.log(masala3(18));
+// =================================================================================================
+ 
