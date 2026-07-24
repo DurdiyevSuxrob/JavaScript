@@ -57,20 +57,18 @@
 // } 
 // console.log(masala1(2, 3));
 // ===================================================================================================
-function masala2(son) {
-    if (son > 0) {
-        return "nusbat"
-    } else if (son === 0) {
-        return " "
-    }
-    
-    else {
-        return "marfiy"
-    }
-}
-console.log(masala2);
-
-    
+// function masala2(son) {
+//     if (son > 0) {
+//         return "musbat"
+//     } else if (son === 0) {
+//         return "nol "
+//     } else {
+//         return "manfiy"
+//     }
+// }
+// console.log(masala2(-1));
+// ================================================================================================
+    function masala3(yosh) {}
 
 
 
