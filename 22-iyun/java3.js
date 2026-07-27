@@ -396,6 +396,10 @@
 // let natija = son.endsWith("@gmail.com")
 // console.log(natija);
 // ======================================================================================================================
+// 4.4%
+let son = "SALOM DUNYO"
+let natija = son.toUpperCase("SALOM DUNYO").split(" ")
+console.log(natija);
 
 
 
