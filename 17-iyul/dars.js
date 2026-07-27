@@ -106,12 +106,12 @@ function masala6() {
 function masala11(matn) {
     return matn.length;
 }
-console.log(masala11("Salom"));
-console.log(masala11("Assalomu alaykum")); 
+// console.log(masala11("Salom"));
+// console.log(masala11("Assalomu alaykum")); 
 
 // 12-masala: [string] Berilgan so'zni teskari tartibda qaytaruvchi funksiya yozing.
 function masala12(soz) {
-    
+
 }
 
 // 13-masala: [string] Berilgan matnni katta harflarga o'giruvchi funksiya yozing.
