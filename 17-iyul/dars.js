@@ -108,8 +108,16 @@ function masala6() {}
 function masala7(son) {
    let son1 = String(son);
    let arr = son1.split(" ");
-   let y = 0
+   let y = 0;
+   let i = 0;
+   while (i <= arr.length) {
+    y += Number(i);
+    i++;
+   }
+   return y;
 }
+console.log(masala7(12345));
+
 
 // 8-masala: [while] Berilgan sondan boshlab 1 gacha teskari
 // hisoblovchi (countdown) funksiya yozing, natijalarni massivga yozib qaytaring.
