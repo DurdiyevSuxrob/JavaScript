@@ -108,7 +108,7 @@ function masala6() {}
 function masala7(son) {
    let son1 = String(son);
    let arr = son1.split(" ");
-   let 
+   let y = 0
 }
 
 // 8-masala: [while] Berilgan sondan boshlab 1 gacha teskari
