@@ -116,7 +116,7 @@ function masala7(son) {
    }
    return y;
 }
-console.log(masala7(12345));
+// console.log(masala7(12345));
 
 
 // 8-masala: [while] Berilgan sondan boshlab 1 gacha teskari
@@ -228,6 +228,7 @@ function masala20(massiv) {
     if (massiv[i] % 2 !== 0) {
       toqlar.push(massiv[i]);
     }
+}
 }
 // console.log(console.log(masala20([6, 2, 11, 4, 5, 13, 12])));
 
@@ -640,14 +641,6 @@ function masala99(foydalanuvchilar, ism1, ism2) {}
 // uchun quyidagi kabi chaqiring, masalan:
 // console.log(masala1(10, 20));
 // ============
-
-
-
-
-
-
-
-
 
 
 
