@@ -171,20 +171,49 @@ function masala17(massiv) {
 function masala18(massiv) {
   return massiv.map(element => element * 2);
 }
-console.log(masala18([100, 200, 300]));
+// console.log(masala18([100, 200, 300]));
 
 
-// 19-masala: [if-else, for] Massivdagi juft sonlarni alohida
-// massivga ajratuvchi funksiya yozing.
-function masala19(massiv) {}
+  // 19-masala: [if-else, for] Massivdagi juft sonlarni alohida
+  // massivga ajratuvchi funksiya yozing.
+  function masala19(massiv) {
+     let juftlar = [];
+
+    for (let i = 0; i < massiv.length; i++) {
+        if (massiv[i] % 2 === 0) {
+            juftlar.push(massiv[i]);
+        }
+    }
+
+    return juftlar;
+  }
+  // console.log(masala19([1, 2, 3, 4, 5, 6]));
 
 // 20-masala: [if-else, for] Massivdagi toq sonlarni alohida
 // massivga ajratuvchi funksiya yozing.
-function masala20(massiv) {}
+function masala20(massiv) {
+  let toqlar = [];
+
+  for (let i = 0; i < massiv.length; i++) {
+    if (massiv[i] % 2 !== 0) {
+      toqlar.push(massiv[i]);
+    }
+  }
+  return toqlar;
+}
+// console.log(console.log(masala20([6, 2, 11, 4, 5, 13, 12])));
+
 
 // 21-masala: [object] Ism va yosh parametrlarini qabul qilib,
 // { ism, yosh } ko'rinishida object qaytaruvchi funksiya yozing.
-function masala21(ism, yosh) {}
+function masala21(ism, yosh) {
+  return {
+    ism: ism,
+    yosh: yosh
+  }
+}
+// console.log(masala21("Ali", 20));
+
 
 // 22-masala: [object] Berilgan object ichida "ism" xususiyati
 // mavjudligini tekshiruvchi funksiya yozing.
