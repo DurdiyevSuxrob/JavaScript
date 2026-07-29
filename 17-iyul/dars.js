@@ -111,11 +111,19 @@ function masala11(matn) {
 
 // 12-masala: [string] Berilgan so'zni teskari tartibda qaytaruvchi funksiya yozing.
 function masala12(soz) {
-
+    return soz.split("").reverse().join("")
+    
 }
+// console.log(masala12("salom"));
+
+
 
 // 13-masala: [string] Berilgan matnni katta harflarga o'giruvchi funksiya yozing.
-function masala13(matn) {}
+function masala13(katta) {
+    return katta.upper()
+}
+console.log(masala13("suxrob"));
+
 
 // 14-masala: [string] Berilgan matnda "salom" so'zi bor-yo'qligini
 // tekshiruvchi funksiya yozing (true/false qaytarsin).
