@@ -126,8 +126,11 @@ function masala13(katta) {
 // 14-masala: [string] Berilgan matnda "salom" so'zi bor-yo'qligini
 // tekshiruvchi funksiya yozing (true/false qaytarsin).
 function masala14(err) {
-  return err.end
+ return err.includes("salom")
 }
+
+
+
 
 // 15-masala: [array] Massiv elementlari yig'indisini hisoblovchi funksiya yozing.
 function masala15(massiv) {
