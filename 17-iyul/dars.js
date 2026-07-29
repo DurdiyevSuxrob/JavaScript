@@ -107,7 +107,7 @@ function masala6() {}
 // while sikli yordamida hisoblang. Masalan: 123 -> 1+2+3 = 6
 function masala7(son) {
    let son1 = String(son);
-   let arr = son1.split(" ");
+   let arr = son1.split("");
    let y = 0;
    let i = 0;
    while (i <= arr.length) {
