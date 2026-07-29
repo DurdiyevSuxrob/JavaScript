@@ -106,7 +106,7 @@ function masala6() {}
 // 7-masala: [while] Berilgan sonning raqamlar yig'indisini
 // while sikli yordamida hisoblang. Masalan: 123 -> 1+2+3 = 6
 function masala7(son) {
-   
+   fun
 }
 
 // 8-masala: [while] Berilgan sondan boshlab 1 gacha teskari
