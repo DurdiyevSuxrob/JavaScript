@@ -120,7 +120,10 @@ function masala12(soz) {
 
 // 13-masala: [string] Berilgan matnni katta harflarga o'giruvchi funksiya yozing.
 function masala13(katta) {
+    return katta.toUpperCase();
 }
+// console.log(masala13("salom")); 
+// console.log(masala13("Hello")); 
 
 
 // 14-masala: [string] Berilgan matnda "salom" so'zi bor-yo'qligini
@@ -129,9 +132,6 @@ function masala14(err) {
  return err.includes("salom")
 }
 // console.log(masala14("salom"));
-
-
-
 
 
 // 15-masala: [array] Massiv elementlari yig'indisini hisoblovchi funksiya yozing.
@@ -160,7 +160,11 @@ function masala16(massiv) {
 // console.log(masala16([1, 2, 3, 4, 5]));
 // console.log(masala16([-5, -2, -10]));
 // 17-masala: [array] Massivdagi eng kichik elementni topuvchi funksiya yozing.
-function masala17(massiv) {}
+function masala17(massiv) {
+  return Math.min(...massiv);
+}
+// console.log(masala17([5, 6, 4, 10, 20, 2, 12]));
+
 
 // 18-masala: [array] Massiv elementlarini ikkiga ko'paytirib,
 // yangi massiv qaytaruvchi funksiya yozing.
