@@ -128,6 +128,8 @@ function masala13(katta) {
 function masala14(err) {
  return err.includes("salom")
 }
+// console.log(masala14("salom"));
+
 
 
 
