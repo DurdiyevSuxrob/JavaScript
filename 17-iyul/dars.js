@@ -288,7 +288,17 @@ function masala24(son) {
 
 // 25-masala: [if-else] Uchta sonni solishtirib, eng kattasini
 // qaytaruvchi funksiya yozing.
-function masala25(a, b, c) {}
+function masala25(a, b, c) {
+  if (a >= b && a >= c) {
+    return a;
+  } else if (b >= a && b >= c) {
+    return b;
+  } else{
+    return c;
+  }
+}
+// console.log(masala25(10, 25, 15));
+
 
 // 26-masala: [for] 1 dan 10 gacha ko'paytirish jadvalini
 // (masalan 5 uchun: 5,10,15...) massiv ko'rinishida qaytaruvchi funksiya yozing.
