@@ -101,7 +101,17 @@
 // =============================================================================================
 // 6-masala: [for] 1 dan 100 gacha bo'lgan juft sonlarni massivga
 // yig'ib qaytaruvchi funksiya yozing.
-function masala6() {}
+function masala6() {
+  let arr = [];
+
+  for (let i = 2; i <= 100; i += 2) {
+    arr.push(i);
+  }
+
+  return arr;
+}
+// console.log(masala6());
+
 
 // 7-masala: [while] Berilgan sonning raqamlar yig'indisini
 // while sikli yordamida hisoblang. Masalan: 123 -> 1+2+3 = 6
@@ -247,8 +257,12 @@ function masala21(ism, yosh) {
 // 22-masala: [object] Berilgan object ichida "ism" xususiyati
 // mavjudligini tekshiruvchi funksiya yozing.
 function masala22(obj) {
-  
+   {
+  return obj.hasOwnProperty("ism");
 }
+}
+// console.log(masala22({ ism: "Ali", yosh: 20 })); 
+// console.log(masala22({ yosh: 20 }));             
 
 // 23-masala: [object] Berilgan object'dagi barcha kalitlarni (key)
 // massiv ko'rinishida qaytaruvchi funksiya yozing.
