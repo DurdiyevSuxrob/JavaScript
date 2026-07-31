@@ -350,7 +350,7 @@ function masala28(matn) {
 function masala29(soz1, soz2) {
   return soz1 +" " + soz2;
 }
-console.log(masala29("suxrob", "azamat"));
+// console.log(masala29("suxrob", "azamat"));
 
 // 30-masala: [array] Massivda berilgan element mavjudligini
 // tekshiruvchi funksiya yozing (true/false).
