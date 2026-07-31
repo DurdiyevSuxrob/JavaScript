@@ -390,7 +390,17 @@ function masala32(baho) {
 
 // 33-masala: [for] Berilgan sonning barcha bo'luvchilarini
 // topib, massiv ko'rinishida qaytaruvchi funksiya yozing.
-function masala33(son) {}
+function masala33(son) {
+  let marta = 0;
+
+  while (son >= 1) {
+    son /= 2;
+    marta++;
+  }
+  return marta;
+}
+console.log(masala33(22));
+
 
 // 34-masala: [do-while] 1 dan boshlab sonlarni sanab, ularning
 // yig'indisi berilgan chegaradan oshguncha davom ettiruvchi
