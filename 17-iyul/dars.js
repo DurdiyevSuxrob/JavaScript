@@ -341,7 +341,7 @@ function masala28(matn) {
 
   return sanoq;
 }
-// console.log(masala28("suxrob"));
+console.log(masala28("suxrob"));
 
 
 
