@@ -361,7 +361,9 @@ function masala30(massiv, element) {
 
 // 31-masala: [array] Massiv ichidagi elementlar sonini
 // (uzunligini) qaytaruvchi funksiya yozing.
-function masala31(massiv) {}
+function masala31(massiv) {
+  return
+}
 
 // 32-masala: [if-else] Berilgan baho (0-100) ga qarab harf baho
 // ("A", "B", "C", "D", "F") qaytaruvchi funksiya yozing.
