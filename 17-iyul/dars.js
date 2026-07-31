@@ -266,7 +266,11 @@ function masala22(obj) {
 
 // 23-masala: [object] Berilgan object'dagi barcha kalitlarni (key)
 // massiv ko'rinishida qaytaruvchi funksiya yozing.
-function masala23(obj) {}
+function masala23(obj) {
+  return Object.keys(obj);
+}
+// console.log(masala23({ ism: "Ali", yosh: 20, shahar: "Toshkent"}));
+
 
 // 24-masala: [if-else] Berilgan sonning juft yoki toqligini
 // aniqlovchi funksiya yozing.
