@@ -412,7 +412,7 @@ function masala42(soz) {}
 
 // 43-masala: [string] Berilgan matndagi har bir so'zning birinchi
 // harfini katta qilib qaytaruvchi funksiya yozing (Title Case).
-function masala43(matn) {}
+function masala43(matn) {}  
 
 // 44-masala: [string, for] Berilgan matndagi so'zlar sonini
 // hisoblovchi funksiya yozing (bo'sh joylar bo'yicha ajrating).
