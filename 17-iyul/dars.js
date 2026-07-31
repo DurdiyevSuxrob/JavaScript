@@ -399,7 +399,7 @@ function masala33(son) {
   }
   return marta;
 }
-console.log(masala33(22));
+// console.log(masala33(22));
 
 
 // 34-masala: [do-while] 1 dan boshlab sonlarni sanab, ularning
