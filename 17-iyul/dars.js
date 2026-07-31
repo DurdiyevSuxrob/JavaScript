@@ -369,7 +369,9 @@ function masala31(massiv) {
 
 // 32-masala: [if-else] Berilgan baho (0-100) ga qarab harf baho
 // ("A", "B", "C", "D", "F") qaytaruvchi funksiya yozing.
-function masala32(baho) {}
+function masala32(baho) {
+  
+}
 
 // 33-masala: [for] Berilgan sonning barcha bo'luvchilarini
 // topib, massiv ko'rinishida qaytaruvchi funksiya yozing.
