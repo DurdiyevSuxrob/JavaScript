@@ -370,8 +370,23 @@ function masala31(massiv) {
 // 32-masala: [if-else] Berilgan baho (0-100) ga qarab harf baho
 // ("A", "B", "C", "D", "F") qaytaruvchi funksiya yozing.
 function masala32(baho) {
-  
+  if (baho >= 90 && baho <= 100) {
+    return "A"
+  } else if(baho >= 80) {
+    return "B"
+  } else if (baho >= 70) {
+    return "C"
+  } else if (baho >= 60) {
+    return "D"
+  } else if (baho > 0) {
+    return "F"
+  } else {
+    return "Notogri baho"
+  }
+
 }
+// console.log(masala32(99));
+
 
 // 33-masala: [for] Berilgan sonning barcha bo'luvchilarini
 // topib, massiv ko'rinishida qaytaruvchi funksiya yozing.
