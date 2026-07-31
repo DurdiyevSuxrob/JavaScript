@@ -331,7 +331,7 @@ function masala27(son) {
 // sonini hisoblovchi funksiya yozing.
 function masala28(matn) {
   let sanoq = 0;
-  let unlilar = "suxrob";
+  let unlilar = "aoeiu";
 
   for (let i = 0; i < matn.length; i++) {
     if (unlilar.includes(matn[i])) {
@@ -341,7 +341,7 @@ function masala28(matn) {
 
   return sanoq;
 }
-// console.log(masala28("suxrob"));
+console.log(masala28("suxrob"));
 
 
 
@@ -364,7 +364,7 @@ function masala30(massiv, element) {
 function masala31(massiv) {
   return massiv.length
 }
-console.log(masala31());
+// console.log(masala31("suxrob"));
 
 
 // 32-masala: [if-else] Berilgan baho (0-100) ga qarab harf baho
