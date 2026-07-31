@@ -297,7 +297,7 @@ function masala25(a, b, c) {
     return c;
   }
 }
-// console.log(masala25(10, 25, 15));
+// console.log(masala25(5, 4, 9));
 
 
 // 26-masala: [for] 1 dan 10 gacha ko'paytirish jadvalini
@@ -329,7 +329,21 @@ function masala27(son) {
 
 // 28-masala: [string] Berilgan matndagi unli harflar (a, o, e, i, u, ...)
 // sonini hisoblovchi funksiya yozing.
-function masala28(matn) {}
+function masala28(matn) {
+  let sanoq = 0;
+  let unlilar = "suxrob";
+
+  for (let i = 0; i < matn.length; i++) {
+    if (unlilar.includes(matn[i])) {
+      sanoq++;
+    }
+  }
+
+  return sanoq;
+}
+// console.log(masala28("suxrob"));
+
+
 
 // 29-masala: [string] Ikkita so'zni birlashtirib, orasiga bo'sh joy
 // qo'yib qaytaruvchi funksiya yozing.
