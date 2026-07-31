@@ -354,7 +354,10 @@ function masala29(soz1, soz2) {
 
 // 30-masala: [array] Massivda berilgan element mavjudligini
 // tekshiruvchi funksiya yozing (true/false).
-function masala30(massiv, element) {}
+function masala30(massiv, element) {
+  return massiv.includes(element);
+}
+
 
 // 31-masala: [array] Massiv ichidagi elementlar sonini
 // (uzunligini) qaytaruvchi funksiya yozing.
