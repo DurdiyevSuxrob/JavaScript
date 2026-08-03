@@ -432,12 +432,28 @@ function masala35(obj1, obj2) {
 // 36-masala: [if-else, for] Berilgan sondan katta bo'lgan barcha
 // tub sonlarni (birinchi N ta) massiv ko'rinishida qaytaruvchi funksiya yozing.
 function masala36(son, n) {
-  
+
 }
 
 // 37-masala: [if-else] Berilgan sonning tub son (prime) ekanligini
 // tekshiruvchi funksiya yozing.
-function masala37(son) {}
+function masala37(son) {
+   if (son < 2) {
+    return false;
+  } else {
+    for (let i = 2; i <= Math.sqrt(son); i++) {
+      if (son % i === 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+}
+console.log(masala37(2));  
+console.log(masala37(7));  
+console.log(masala37(16));  
+console.log(masala37(17)); 
+console.log(masala37(1));  
 
 // 38-masala: [for, if-else] 1 dan berilgan songacha bo'lgan
 // Fibonachchi ketma-ketligini massiv ko'rinishida qaytaruvchi funksiya yozing.
