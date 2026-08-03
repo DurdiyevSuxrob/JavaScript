@@ -213,9 +213,6 @@ vazifalar.unshift("Eng muhim: byudjetni tasdiqlash");
 vazifalar.forEach((vazifa, index) => {
   console.log(`${index + 1}. ${vazifa}`);
 });
-
-
-
 // =====================================================================================
 // 29-masala%
 let ballar = [55, 70, 43, 88, 91];
