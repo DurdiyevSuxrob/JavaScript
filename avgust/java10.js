@@ -32,5 +32,25 @@
 // console.log(Math.max(5, 10, 3, 8)); // 10 - berilgan sonlar orasidan eng kattasi
 // console.log(Math.min(5, 10, 3, 8)); // 3 - eng kichigi
 // ===========================================================================================
-console.log(Math.pow);
+// console.log(Math.pow(2, 10)); // 1024 - 2 ning 10-darajasi (2**10 bilan bir xil)
+// console.log(Math.pow(5, 2)); // 25 - 5 ning kvadrati
+// console.log(Math.pow(2, 0.5)); // 1.414... - kvadrat ildizga teng (chunki 0.5-daraja = ildiz)
 
+// // Zamonaviy alternativa - "**" operatori (ES2016+), Math.pow() bilan bir xil natija beradi
+// console.log(2 ** 10); // 1024
+
+// console.log(Math.sqrt(25)); // 5 - kvadrat ildiz
+// console.log(Math.sqrt(2)); // 1.4142135623730951
+// console.log(Math.sqrt(-4)); // NaN - manfiy sonning kvadrat ildizi mavjud emas (haqiqiy sonlar orasida)
+
+// console.log(Math.cbrt(27)); // 3 - kub ildiz (27 = 3*3*3)
+// console.log(Math.cbrt(-8)); // -2 - kub ildiz manfiy sonlar uchun ham ishlaydi!
+
+// // Boshqa foydali Math metodlari (bonus):
+// console.log(Math.hypot(3, 4)); // 5 - gipotenuza uzunligi (Pifagor teoremasi: sqrt(3^2+4^2))
+// console.log(Math.log(Math.E)); // 1 - natural logarifm (asosi E)
+// console.log(Math.log2(8)); // 3 - 2 asosli logarifm (2^3=8)
+// console.log(Math.log10(1000)); // 3 - 10 asosli logarifm
+// console.log(Math.sign(-5)); // -1 - sonning belgisini qaytaradi (-1, 0, yoki 1)
+// console.log(Math.sign(5)); // 1
+// console.log(Math.sign(0)); // 0
