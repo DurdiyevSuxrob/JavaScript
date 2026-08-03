@@ -405,7 +405,19 @@ function masala33(son) {
 // 34-masala: [do-while] 1 dan boshlab sonlarni sanab, ularning
 // yig'indisi berilgan chegaradan oshguncha davom ettiruvchi
 // funksiya yozing (necha ta son kerak bo'lganini qaytaring).
-function masala34(chegara) {}
+function masala34(chegara) {
+  let yigindi = 0;
+  let son = 1;
+  let sanoq = 0;
+  do {
+    yigindi += son;
+    sanoq++;
+    son++;
+  } while (yigindi <= chegara);
+  return sanoq;
+}
+console.log(masala34(10));
+
 
 // 35-masala: [object] Ikkita object'ni birlashtirib, yangi
 // object qaytaruvchi funksiya yozing.
