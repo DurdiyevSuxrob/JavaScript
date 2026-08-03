@@ -449,7 +449,6 @@ function masala37(son) {
     return true;
   }
 }
-console.log(masala37(2));  
 console.log(masala37(7));  
 console.log(masala37(16));  
 console.log(masala37(17)); 
