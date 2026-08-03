@@ -205,11 +205,14 @@ sahifalar.pop();
 // console.log(sahifalar);
 // ===========================================================================================
 // 27-masala%
-let sonlar = [1, 2, 3, 4];
-let natija = sonlar.reduceRight((a, b) => a / b);
-// console.log(natija);
+// 
 // ======================================================================================
-
+// 28-masala%
+let vazifalar = ["hujjatlarni tayyorlash"];
+vazifalar.unshift("Eng muhim: byudjetni tasdiqlash");
+vazifalar.forEach((vazifa, index) => {
+  console.log(`${index + 1}. ${vazifa}`);
+});
 
 
 
