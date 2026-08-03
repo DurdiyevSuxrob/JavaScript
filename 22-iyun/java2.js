@@ -192,7 +192,23 @@ let natija = sonlar.reduceRight((acc, qiymat) => qiymat / acc);
 // console.log(arr);
 // ======================================================================================
 // 25-masala%
-
+let harflar = ["x", "y", "z"];
+let indekslar = [...harflar.keys()].reverse();
+for (let index of indekslar) {
+//   console.log(index);
+}
+// ===========================================================================================
+// 26-masala%
+let sahifalar = ["bosh", "biz-haqimizda", "xizmatlar", "aloqa"];
+sahifalar.pop();
+sahifalar.pop();
+// console.log(sahifalar);
+// ===========================================================================================
+// 27-masala%
+let sonlar = [1, 2, 3, 4];
+let natija = sonlar.reduceRight((a, b) => a / b);
+// console.log(natija);
+// ======================================================================================
 
 
 
