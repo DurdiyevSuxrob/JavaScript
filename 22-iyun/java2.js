@@ -190,7 +190,15 @@ let natija = sonlar.reduceRight((acc, qiymat) => qiymat / acc);
 // let arr = [1, 2, 3, 4, 5, 6, 7];
 // arr.splice(3, 0,  99)
 // console.log(arr);
+// ======================================================================================
+// 25-masala%
+
+
+
+
+
 // =====================================================================================
+// 29-masala%
 let ballar = [55, 70, 43, 88, 91];
 let sanoq = 0;
 for (let ball of ballar.values()) {
