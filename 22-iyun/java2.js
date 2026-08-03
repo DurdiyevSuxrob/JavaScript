@@ -211,7 +211,7 @@ sahifalar.pop();
 let vazifalar = ["hujjatlarni tayyorlash"];
 vazifalar.unshift("Eng muhim: byudjetni tasdiqlash");
 vazifalar.forEach((vazifa, index) => {
-  console.log(`${index + 1}. ${vazifa}`);
+//   console.log(`${index + 1}. ${vazifa}`);
 });
 // =====================================================================================
 // 29-masala%
@@ -224,7 +224,10 @@ for (let ball of ballar.values()) {
 }
 // console.log(sanoq);
 // ========================================================
-
+// 30-masala%
+let tranzaksiyalar = [200, -50, 300, -120, 400, -30];
+let oxirgiXarajat = tranzaksiyalar.findLast(tranzaksiya => tranzaksiya < 0);
+// console.log(oxirgiXarajat);
 
 
 
