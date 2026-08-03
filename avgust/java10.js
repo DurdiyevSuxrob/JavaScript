@@ -32,4 +32,5 @@
 // console.log(Math.max(5, 10, 3, 8)); // 10 - berilgan sonlar orasidan eng kattasi
 // console.log(Math.min(5, 10, 3, 8)); // 3 - eng kichigi
 // ===========================================================================================
+console.log(Math.pow);
 
