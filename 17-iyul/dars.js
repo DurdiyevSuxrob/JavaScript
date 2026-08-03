@@ -416,18 +416,24 @@ function masala34(chegara) {
   } while (yigindi <= chegara);
   return sanoq;
 }
-console.log(masala34(10));
+// console.log(masala34(10));
 
 
 // 35-masala: [object] Ikkita object'ni birlashtirib, yangi
 // object qaytaruvchi funksiya yozing.
-function masala35(obj1, obj2) {}
+function masala35(obj1, obj2) { 
+   return { ...obj1, ...obj2 };
+}
+// console.log(
+  // masala35({ a: 1, b: 2 }, { c: 3, d: 4 }));
 
 // ==================== O'RTACHA DARAJA (36 - 75) ====================
 
 // 36-masala: [if-else, for] Berilgan sondan katta bo'lgan barcha
 // tub sonlarni (birinchi N ta) massiv ko'rinishida qaytaruvchi funksiya yozing.
-function masala36(son, n) {}
+function masala36(son, n) {
+  
+}
 
 // 37-masala: [if-else] Berilgan sonning tub son (prime) ekanligini
 // tekshiruvchi funksiya yozing.
