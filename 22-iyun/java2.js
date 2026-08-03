@@ -117,7 +117,11 @@
 // let natija = sonlar.find(son => son % 2 !== 0);
 // console.log(natija || "Topilmadi");
 // =======================================================================
-// 21-masala!
+// 21-masala
+let baholar = [[85, 90], [70, [60, 65]], [95]];
+let tekis = baholar.flat(2);
+let orta = tekis.reduce((sum, baho) => sum + baho, 0) / tekis.length;
+// console.log(orta);
 // =====================================================================
 // 22-masala%
 // let arr = ["Fizika: 4"];
@@ -148,7 +152,10 @@
 // sahifalar.pop()
 // console.log(sahifalar);
 // =================================================================================
-// 27-masala!
+// 27-masala%
+let sonlar = [1, 2, 3, 4];
+let natija = sonlar.reduceRight((acc, qiymat) => qiymat / acc);
+// console.log(natija);
 // ====================================================================
 // 28-masala% "Eng muhim: byudjetni tasdiqlash" vazifasini ro'yxat boshiga unshift() bilan qo'shing, so'ng
 // barcha vazifalarni raqamlab chop eting.
@@ -184,13 +191,14 @@
 // arr.splice(3, 0,  99)
 // console.log(arr);
 // =====================================================================================
-// 29-masala!
-// let arr = [55, 70, 43, 88, 91];
-// let sonoq = 0
-// for (let val of arr.values()) {
-//   console.log(val);
-//   console.log(arr < 60);
-// }
+let ballar = [55, 70, 43, 88, 91];
+let sanoq = 0;
+for (let ball of ballar.values()) {
+  if (ball < 60) {
+    sanoq++;
+  }
+}
+// console.log(sanoq);
 // ========================================================
 
 
