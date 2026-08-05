@@ -480,7 +480,7 @@ function masala40(a, b) {}
 
 // 41-masala: [string, for] Berilgan matnda har bir harf necha marta
 // takrorlanganini hisoblab, object ko'rinishida qaytaruvchi funksiya yozing.
-function masala41(matn) {durdiyev su}
+function masala41(matn) {}
 
 // 42-masala: [string, if-else] Berilgan so'z palindrom (ikki tarafdan
 // bir xil o'qiluvchi) ekanligini tekshiruvchi funksiya yozing.
