@@ -89,6 +89,8 @@ const hozirgivaqt = new Date().getHours() + 5;
 // console.log(hozirgivaqt);
 // ================================================================================
 // 9-topshiriq
+const vaqt =  Math.PI
+console.log(vaqt);
 
 
 
