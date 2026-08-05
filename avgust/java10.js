@@ -59,5 +59,9 @@
 // const sana = new Date()
 // console.log(sana);
 // ===========================================================================================
-const hozirgiYil = New Date().getfullY
+// 2-topshiriq
+const hozirgiYil = new Date().getFullYear()
+// console.log(hozirgiYil);
+// =====================================================================================
+
 
