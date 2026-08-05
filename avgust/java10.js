@@ -56,7 +56,7 @@
 // console.log(Math.sign(0)); // 0
 // ============================================================================================
 // 1-topshiriq
-const sana = new Date()
+// const sana = new Date()
 // console.log(sana);
 // ===========================================================================================
 const hozirgiYil = New Date().getfullY
