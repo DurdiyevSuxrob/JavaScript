@@ -100,6 +100,7 @@ const vaqt =  Math.PI
 const sonn = Math.round(4.7)
 // console.log(sonn);
 // ======================================================================================
+// 12-topshiriq
 
 
 
