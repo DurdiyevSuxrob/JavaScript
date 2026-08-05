@@ -64,5 +64,11 @@ const hozirgiYil = new Date().getFullYear()
 // console.log(hozirgiYil);
 // =====================================================================================
 // 3-topshiriq
-const
+const hozirgioy = new Date().getMonth()
+// console.log(hozirgioy);
+// ====================================================================================
+// 4-topshiriq
+const hozirgikun = new Date().getDay()
+// console.log(hozirgikun);
+// ====================================================================================
 
