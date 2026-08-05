@@ -85,6 +85,11 @@ const uzFormat = new Intl.DateTimeFormat("uz-UZ")
 // console.log(uzFormat.format(sana));
 // ===================================================================================
 // 8-topshiriq
+const hozirgivaqt = new Date().getHours() + 5;
+// console.log(hozirgivaqt);
+// ================================================================================
+// 9-topshiriq
+
 
 
 
