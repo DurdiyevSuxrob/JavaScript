@@ -449,18 +449,30 @@ function masala37(son) {
     return true;
   }
 }
-console.log(masala37(7));  
-console.log(masala37(16));  
-console.log(masala37(17)); 
-console.log(masala37(1));  
+// console.log(masala37(7));  
+// console.log(masala37(16));  
+// console.log(masala37(17)); 
+// console.log(masala37(1));  
 
 // 38-masala: [for, if-else] 1 dan berilgan songacha bo'lgan
 // Fibonachchi ketma-ketligini massiv ko'rinishida qaytaruvchi funksiya yozing.
-function masala38(uzunlik) {}
+function masala38(uzunlik) {
+
+}
 
 // 39-masala: [while] Berilgan ikkita sonning eng katta umumiy
 // bo'luvchisini (EKUB) Evklid algoritmi asosida topuvchi funksiya yozing.
-function masala39(a, b) {}
+function masala39(a, b) {
+   while (b !== 0) {
+    let qoldiq = a % b;
+    a = b;
+    b = qoldiq;
+  }
+
+  return a;
+}
+console.log(masala39(20, 15));
+
 
 // 40-masala: [while] Berilgan ikkita sonning eng kichik umumiy
 // karralisini (EKUK) topuvchi funksiya yozing.
