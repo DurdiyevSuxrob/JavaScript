@@ -79,6 +79,13 @@ const Hozirgisanani = new Date().toUTCString()
 const Hozirgivaqt = Date.now()
 // console.log(Hozirgivaqt);
 // ==================================================================================
+// 7-topshiriq
+const sana = new Date(2026, 7, 3, 14, 30);
+const uzFormat = new Intl.DateTimeFormat("uz-UZ")
+// console.log(uzFormat.format(sana));
+// ===================================================================================
+// 8-topshiriq
+
 
 
 
