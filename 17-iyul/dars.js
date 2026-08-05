@@ -471,7 +471,7 @@ function masala39(a, b) {
 
   return a;
 }
-console.log(masala39(20, 15));
+// console.log(masala39(20, 15));
 
 
 // 40-masala: [while] Berilgan ikkita sonning eng kichik umumiy
