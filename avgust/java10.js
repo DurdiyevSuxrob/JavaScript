@@ -71,4 +71,10 @@ const hozirgioy = new Date().getMonth()
 const hozirgikun = new Date().getDay()
 // console.log(hozirgikun);
 // ====================================================================================
+// 5-topshiriq
+const Hozirgisanani = new Date().toUTCString()
+console.log(Hozirgisanani);
+
+
+
 
