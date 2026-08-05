@@ -73,7 +73,12 @@ const hozirgikun = new Date().getDay()
 // ====================================================================================
 // 5-topshiriq
 const Hozirgisanani = new Date().toUTCString()
-console.log(Hozirgisanani);
+// console.log(Hozirgisanani);
+// ================================================================================
+// 6-topshiriq
+const Hozirgivaqt = Date.now()
+// console.log(Hozirgivaqt);
+
 
 
 
