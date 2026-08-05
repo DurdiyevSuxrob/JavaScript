@@ -92,6 +92,11 @@ const hozirgivaqt = new Date().getHours() + 5;
 const vaqt =  Math.PI
 // console.log(vaqt);
 // ==================================================================================
+// 10-topshiriq
+
+
+
+
 
 
 
