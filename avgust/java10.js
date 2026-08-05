@@ -96,6 +96,7 @@ const vaqt =  Math.PI
 const son = randoMath.m()
 // console.log(son);
 // =====================================================================================
+// 11-topshiriq
 
 
 
