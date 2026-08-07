@@ -133,8 +133,9 @@ const yaxlitt = Math.ceil(4.1)
 // console.log(Number.isInteger(42));
 // =====================================================================================================
 // 22-topshiriq
-
-
+let matn = "Salom"
+// console.log(Number.isNaN(Number(matn)))
+// console.log(Number.isNaN(Number("12")))
 // =====================================================================================================
 // 23-topshiriq
 // console.log(Infinity === Infinity);
@@ -143,6 +144,15 @@ const yaxlitt = Math.ceil(4.1)
 // console.log(Number.parseFloat("3.14"));
 // =====================================================================================================
 // 25-topshiriq
+let user = {
+  name: "Ali",
+  age: 25,
+  jobs: "Developer",
+};
+// console.log(JSON.stringify(user))
+// ===================================================================================================
+// 26-topshiriq
+
 
 
 
