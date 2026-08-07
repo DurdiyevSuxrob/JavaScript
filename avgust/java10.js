@@ -139,6 +139,7 @@ const yaxlitt = Math.ceil(4.1)
 // console.log(Infinity === Infinity);
 // =====================================================================================================
 // 24-topshiriq
+console.log(Number.parseFloat("3.14"));
 
 
 
