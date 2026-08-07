@@ -108,6 +108,8 @@ const yaxlit = Math.floor(4.9)
 const yaxlitt = Math.ceil(4.1)
 // console.log(yaxlitt);
 // =================================================================================================
+// 14-topshiriq
+
 
 
 
