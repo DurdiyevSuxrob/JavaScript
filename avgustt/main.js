@@ -33,14 +33,17 @@ main2.style.width = "250px"
 main2.style.height = "250px"
 main2.style.border = "1px solid black"
 main2.style.backgroundColor = "red"
-dest.style.borderRadius = "10px"
-
+main2.style.borderRadius = "10px"
+main2.style.textAlign = "center"
+main2.style.fontSize = "20px"
 // =====================================================
 main3.style.width = "250px"
 main3.style.height = "250px"
 main3.style.border = "1px solid black"
 main3.style.backgroundColor = "yellow"
 main3.style.borderRadius = "10px"
+main3.style.textAlign = "center"
+main3.style.fontSize = "20px"
 
 // ======================================================
 main4.style.width = "250px"
@@ -48,6 +51,8 @@ main4.style.height = "250px"
 main4.style.border = "1px solid black"
 main4.style.backgroundColor = "green"
 main4.style.borderRadius = "10px"
+main4.style.textAlign = "center"
+main4.style.fontSize = "20px"
 
 // =======================================================
 main5.style.width = "250px"
@@ -55,6 +60,8 @@ main5.style.height = "250px"
 main5.style.border = "1px solid black"
 main5.style.backgroundColor = "blue"
 main5.style.borderRadius = "10px"
+main5.style.textAlign = "center"
+main5.style.fontSize = "20px"
 
 // ========================================================
 main6.style.width = "250px"
@@ -62,6 +69,8 @@ main6.style.height = "250px"
 main6.style.border = "1px solid black"
 main6.style.backgroundColor = "gold"
 main6.style.borderRadius = "10px"
+main6.style.textAlign = "center"
+main6.style.fontSize = "20px"
 
 // ======================================================
 main7.style.width = "250px"
@@ -69,6 +78,8 @@ main7.style.height = "250px"
 main7.style.border = "1px solid black"
 main7.style.backgroundColor = "brown"
 main7.style.borderRadius = "10px"
+main7.style.textAlign = "center"
+main7.style.fontSize = "20px"
 
 // ==========================================================
 
