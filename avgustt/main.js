@@ -34,7 +34,6 @@ main2.style.height = "250px"
 main2.style.border = "1px solid black"
 main2.style.backgroundColor = "red"
 dest.style.borderRadius = "10px"
-dest.style.borderRadius = "10px"
 
 // =====================================================
 main3.style.width = "250px"
