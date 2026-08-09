@@ -22,13 +22,9 @@ dest.style.display = "flex";
 dest.style.justifyContent = "space-around";
 dest.style.alignItems = "center";
 dest.style.borderRadius = "10px"
+// ===============================================================
 
-
-
-
-
-
-
+// ==============================================================
 main2.style.width = "250px"
 main2.style.height = "250px"
 main2.style.border = "1px solid black"
