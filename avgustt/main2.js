@@ -68,6 +68,9 @@ bosh.style.marginTop = "50px"
 bosh.style.fontSize = "50px"
 bosh.style.fontWeight = "1000"
 bosh.style.color = "blue"
+bosh.style.boxShadow = "0px 0px 5px 20px blue"
+bosh.style.backgroundColor = "red"
+bosh.style.borderRadius = "25px"
 
 
 
