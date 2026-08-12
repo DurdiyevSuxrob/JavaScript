@@ -17,5 +17,14 @@ div2.addEventListener("dblclick", () => {
 
 // ======================================================
 const tolov = document.getElementById("tolov")
-const button1 = document.getElementByI("button")
+const button1 = document.getElementByI("button1")
 // ============================================
+tolov.style.width = "700px"
+tolov.style.height = "400px"
+tolov.style.margin = "auto"
+tolov.style.marginTop = "50px"
+tolov.style.border = "1px solid black"
+button1.style
+
+
+
