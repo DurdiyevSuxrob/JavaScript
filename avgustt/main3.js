@@ -16,3 +16,6 @@ div2.addEventListener("dblclick", () => {
 });
 
 // ======================================================
+const tolov = document.getElementById("tolov")
+const button1 = document.getElementByI("button")
+// ============================================
