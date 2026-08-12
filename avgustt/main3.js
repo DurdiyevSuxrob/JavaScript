@@ -23,8 +23,9 @@ tolov.style.width = "700px"
 tolov.style.height = "400px"
 tolov.style.margin = "auto"
 tolov.style.marginTop = "50px"
+tolov.style.backgroundColor = "blue"
 tolov.style.border = "1px solid black"
-button1.style
+
 
 
 
