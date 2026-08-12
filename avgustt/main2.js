@@ -63,6 +63,11 @@ div4.style.boxShadow = "0px 0px 10px 3px black"
 div4.style.borderTopLeftRadius = "25px"
 
 // =============================================
+bosh.style.textAlign = "center"
+bosh.style.marginTop = "50px"
+bosh.style.fontSize = "50px"
+bosh.style.fontWeight = "1000"
+bosh.style.color = "blue"
 
 
 
