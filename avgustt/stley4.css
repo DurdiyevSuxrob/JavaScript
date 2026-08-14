@@ -69,5 +69,6 @@ h2 {
 .ret {
     width: 800px;
     height: 600px;
-    
+    margin:auto ;
+    border: 1px solid black;
 }
