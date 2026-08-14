@@ -23,3 +23,15 @@
 //     arr.play()
 // })
 // ======================================
+const ret1 = document.getElementById(ret1)
+const ret2 = document.getElementById(ret2)
+const ret3 = document.getElementById(ret3)
+const ret4 = document.getElementById(ret4)
+const ret5 = document.getElementById(ret5)
+const ret5 = document.getElementById(ret5)
+
+const add1 = document.getElementById('add1')
+
+
+
+

@@ -155,5 +155,12 @@ h2 {
     border-radius: 15px;
 
 }
+.ret .ret1:hover,.ret2:hover,.ret3:hover,.ret4:hover,.ret5:hover,.ret6:hover {
+    transform: scale(1.1);
+}
+.ret .ret1:active,.ret2:active,.ret3:active,.ret4:active,.ret5:active,.ret6:active {
+    transform: scale(0.9);
+    transition: 0.1s;
+}
 
 
