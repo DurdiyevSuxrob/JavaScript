@@ -67,8 +67,45 @@ h2 {
 
 }
 .ret {
-    width: 800px;
-    height: 600px;
+    width: 1000px;
+    height: 700px;
     margin:auto ;
     border: 1px solid black;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
+.ret1 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.ret2 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.ret3 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.ret4 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.ret5 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.ret6 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+
