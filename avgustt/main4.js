@@ -44,23 +44,4 @@ const add6 = document.getElementById("add6");
 ret1.addEventListener("click", () => {
   add1.play();
 });
-const add2 = document.getElementById("add2");
-ret2.addEventListener("click", () => {
-  add2.play();
-});
-const add3 = document.getElementById("add3");
-ret3.addEventListener("click", () => {
-  add3.play();
-});
-const add4 = document.getElementById("add4");
-ret4.addEventListener("click", () => {
-  add4.play();
-});
-const add5 = document.getElementById("add5");
-ret5.addEventListener("click", () => {
-  add5.play();
-});
-const add6 = document.getElementById("add6");
-ret6.addEventListener("click", () => {
-  add6.play();
-});
+
