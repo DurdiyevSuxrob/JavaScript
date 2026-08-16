@@ -29,19 +29,15 @@ const ret3 = document.getElementById("ret3");
 const ret4 = document.getElementById("ret4");
 const ret5 = document.getElementById("ret5");
 const ret6 = document.getElementById("ret6");
-
 const add1 = document.getElementById("add1");
-const add2 = document.getElementById("add2");
-const add3 = document.getElementById("add3");
-const add4 = document.getElementById("add4");
-const add5 = document.getElementById("add5");
-const add6 = document.getElementById("add6");
 
 
 
 
 
-ret1.addEventListener("click", () => {
+add1.addEventListener("click", () => {
   add1.play();
+  console.log("ishladi");
+  
 });
 
