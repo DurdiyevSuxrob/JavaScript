@@ -73,5 +73,7 @@ ret6.addEventListener("click", () => {
   console.log("ishladi");
   
 });
+// ======================================
+
 
 
