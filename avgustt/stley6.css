@@ -12,10 +12,10 @@
 .nav1 {
     width: 2025px;
     height: 100px;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(220, 216, 216);
     
     
 }
@@ -25,7 +25,6 @@
 .btn {
     width: 170px;
     height: 50px;
-    border: 1px solid black;
     border-radius: 11px;
     font-size: 18px;
 }
@@ -46,14 +45,16 @@
     font-size: 23px;
 }
 .ret {
-    width: 2025px;
+    width: 1900px;
     height: 800px;
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 100px;
 }
 .ret1 {
-    width: 1000px;
-    height: 500px;
-    border: 1px solid black;
+    width: 900px;
+    height: 600px;
 }
 .h2 {
     font-size: 51px;
@@ -90,5 +91,13 @@
     border-radius: 8px;
     border: 2px solid black;
 }
-
+.ret4 {
+    width: 900px;
+    height: 700px;
+}
+.ret4 img {
+    width: 900px;
+    height: 700px;
+    border-radius: 18px;
+}
 
