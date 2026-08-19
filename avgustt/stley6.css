@@ -107,24 +107,24 @@ body.light {
       body.light nav {
         background-color: #e8e8e8;
       }
-      body.light nav .div1 a {
+      body.light nav .nav1 .h {
         color: #1a1a2e;
       }
-      body.light nav .div2 a {
+      body.light nav .nav2 .nav3 {
         color: #1a1a2e;
       }
       body.light nav .btn {
         border-color: #1a1a2e;
         color: #1a1a2e;
       }
-      body.light .main1 {
+      body.light .ret {
         background-color: #f5f5f5;
         color: #1a1a2e;
       }
-      body.light .main1 .bir .b1 {
+      body.light .ret .ret3 .btn1 {
         background-color: #1a1a2e;
       }
-      body.light .main1 .bir .b2 {
+      body.light .ret .ret3 .btn2 {
         border-color: #1a1a2e;
         color: #1a1a2e;
       }
