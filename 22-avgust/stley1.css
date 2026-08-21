@@ -52,6 +52,9 @@
     align-items: center;
     display: none;
 }
+.login.active {
+    display: flex;
+}
 .login1 {
     width: 400px;
     height: 400px;
