@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="stley.css" />
   </head>
   <body>
-    <button class="open-btn">Tizimga kirish</button>
+     <button class="open-btn">Tizimga kirish</button>
+
     <div class="modal">
       <form class="modal-content">
-        <label for="ism">Ismingizni yozing</label>
+        <label for="ism">Ismingizni yozing:</label>
         <input type="text" name="ism" id="ism" />
-        <label for="parol">Parolingizni kiriting</label>
-        <input type="password" name="parol" id="parol" required />
+        <label for="parol">Parolingizni kiriting:</label>
+        <input type="password" name="parol" id="parol" />
         <button class="send">Yuborish</button>
 
         <button class="close-btn">Yopish</button>
@@ -21,13 +22,14 @@
     </div>
 
     <script>
-      const openBtn = document.querySelector(".open");
+      const openBtn = document.querySelector(".open-btn");
       const closeBtn = document.querySelector(".close-btn");
       const modal = document.querySelector(".modal");
 
       openBtn.addEventListener("click", () => {
         modal.classList.add("active");
       });
+
       closeBtn.addEventListener("click", () => {
         modal.classList.remove("active");
       });
