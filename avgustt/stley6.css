@@ -122,5 +122,9 @@ body.light {
             background-color: black;
             border: 1px solid blue;
         }
-        body.light .na
+        body.light .nav1 .btn {
+            color: blue;
+            background-color: black;
+            border: 1px solid blue;
+        }
 
