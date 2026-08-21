@@ -50,11 +50,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: none; */
+    display: none;
 }
 .login1 {
     width: 400px;
-    height: 300px;
+    height: 400px;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -71,4 +71,14 @@
     background-color: transparent;
     border: none;
     font-weight: bold;
+}
+.send {
+    width: 350px;
+    height: 40px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+.int {
+    width: 350px;
+    height: 35px;
 }
