@@ -7,7 +7,7 @@
 .Bosh {
     width: 1540px;
     height: 60px;
-    border: 1px solid black;
+    background-color: rgb(211, 213, 215);
     display: flex;
     justify-content: space-between;
 }
@@ -18,18 +18,20 @@
 .div3 {
     width: 80px;
     height: 30px;
-    border: 1px solid black;
     text-align: center;
     padding: 5px;
-    background-color: ;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 6px;
 }
 .div4 {
     width: 80px;
     height: 30px;
-    border: 1px solid black;
     text-align: center;
     padding: 5px;
-    background-color: ;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 6px;
 }
 .div2 {
     width: 200px;
@@ -37,4 +39,36 @@
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+.login1 {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login1 .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login1 .top button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
 }
