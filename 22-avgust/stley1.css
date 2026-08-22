@@ -98,7 +98,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    /* display: none; */
 }
 .ret {
     width: 400px;
@@ -109,5 +109,14 @@
 }
 .ret1 {
     display: flex;
-    justify-content: sp;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.close-btn1 {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+
 }
