@@ -101,7 +101,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
+    /* display: none; */
 }
 .ret {
     width: 400px;
@@ -132,7 +132,7 @@
     border-radius: 8px;
 }
 .int1 {
-     width: 350px;
+    width: 350px;
     height: 35px;
     border-radius: 5px;
 }
