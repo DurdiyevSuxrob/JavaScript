@@ -1,62 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="stley3.css">
-</head>
-<body>
+    <link rel="stylesheet" href="stley3.css" />
+  </head>
+  <body>
     <div class="bosh">
-         <div class="div">
+      <div class="div">
         <button class="btn">BMW</button>
         <div class="div1">
-            <div class="div2">
-                <img src="./image.png" alt="">
-                <button class="close-btn">BMW</button>
-            </div>
+          <div class="div2">
+            <img src="./image.png" alt="" />
+            <button class="close-btn">BMW</button>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="div3">
-        <button class="btn1">BMW</button>
+      <div class="div3">
+        <button class="btn1">MERS</button>
         <div class="div4">
-            <div class="div2">
-                <img src="./image.png" alt="">
-                <button class="close-btn1">BMW</button>
-            </div>
+          <div class="div5">
+            <img src="./image copy.png" alt="" />
+            <button class="close-btn1">MERS</button>
+          </div>
         </div>
+      </div>
     </div>
 
-    </div>
+    <script>
+      const div1 = document.querySelector(".div1");
+      const btn = document.querySelector(".btn");
+      const closeBtn = document.querySelector(".close-btn");
 
+      btn.addEventListener("click", () => {
+        div1.classList.add("active");
+      });
 
-     <script>
+      closeBtn.addEventListener("click", () => {
+        div1.classList.remove("active");
+      });
 
+      const div3 = document.querySelector(".div3");
+      const btn1 = document.querySelector(".btn1");
+      const closebtn1 = document.querySelector(".close-btn1");
 
+      btn.addEventListener("click", () => {
+        div3.classList.add("active");
+      });
 
-        const div1 = document.querySelector(".div1")
-        const btn = document.querySelector(".btn")
-        const closeBtn = document.querySelector(".close-btn")
-
-        btn.addEventListener("click", () => {
-            div1.classList.add("active")
-        })
-
-        closeBtn.addEventListener("click", () => {
-            div1.classList.remove("active")
-        })
-
-
+      closeBtn.addEventListener("click", () => {
+        div3.classList.remove("active");
+      });
     </script>
-
-
-
-
-
-
-
-
-
-</body>
+  </body>
 </html>

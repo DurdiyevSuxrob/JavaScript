@@ -99,10 +99,10 @@
   font-size: 20px;
 }
 .div4 {
-    position: fixed;
+  position: fixed;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.7);
-  display: none;
+  /* display: none; */
   justify-content: center;
   align-items: center;
 }
@@ -123,4 +123,37 @@
   font-weight: 900;
   font-size: 30px;
 }
-
+.div5 {
+  padding: 20px;
+  width: 500px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+.div5 img {
+  border-radius: 10px;
+  width: 500px;
+  height: 420px;
+  margin-top: -20px;
+}
+.div5 button {
+  padding: 10px 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: snow;
+  font-size: 20px;
+}
+.div5 button:hover {
+  transform: scale(1.1);
+}
+.div5 button:active {
+  transform: scale(0.9);
+}
+.div5 img .close-btn1 {
+    margin: auto;
+}
