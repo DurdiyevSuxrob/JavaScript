@@ -1,29 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="stley4.css">
-</head>
-<body>
+    <link rel="stylesheet" href="stley4.css" />
+  </head>
+  <body>
     <div class="nav">
-        <div class="div">
-            <div class="m">Mebel</div>
-            <div class="div1">
-                <button class="btn">Login</button>
-                <button class="btn1">singup</button>
-            </div>
+      <div class="div">
+        <div class="m">Mebel</div>
+        <div class="div1">
+          <button class="btn">Login</button>
+          <button class="btn1">singup</button>
         </div>
-        
+      </div>
     </div>
     <div class="div2">
-            <a href="#">Bosh sahifa</a>
-            <a href="#">Mebellar</a>
-            <a href="#">Bizga bog'laning</a>
-        </div>
-
-
-
-</body>
+      <a href="#">Bosh sahifa</a>
+      <a href="#">Mebellar</a>
+      <a href="#">Bizga bog'laning</a>
+    </div>
+    <div class="bosh">
+      <div class="bosh1">
+        <b>Login</b>
+        <button class="btn2">x</button>
+      </div>
+      <label class="r" for="ism">ism</label>
+      <br>
+      <input class="int" type="text" name="ism" id="ism">
+      <br><br>
+      <label class="r" for="passwort">passwort</label>
+      <br>
+      <input class="int" type="text" name="passwort" id="passwort">
+    </div>
+    <script>
+        const bosh = document.querySelector(".bosh")
+        const btn = document.querySelector(".btn")
+         const btn2 = document.querySelector(".btn2")
+    </script>
+  </body>
 </html>
