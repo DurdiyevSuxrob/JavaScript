@@ -102,7 +102,7 @@
   position: fixed;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.7);
-  /* display: none; */
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -155,5 +155,5 @@
   transform: scale(0.9);
 }
 .div5 img .close-btn1 {
-    margin: auto;
+    border: 5px solid black;
 }
