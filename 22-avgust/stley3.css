@@ -12,8 +12,6 @@
     margin: auto;
     margin-top: 350px;
     border-radius: 8px;
-    inset: 0;
-    /* display: none; */
 }
 .btn {
     width: 150px;
@@ -27,6 +25,7 @@
     width: 100px;
     height: 100px;
     border: 1PX solid black;
+    align-items: center;
 }
 .modal1 {
     width: 150px;
@@ -36,7 +35,6 @@
     margin: auto;
     margin-top: 350px;
     border-radius: 8px;
-    inset: 0;
     border: 1PX solid black;
 }
 .btn1 {
@@ -53,5 +51,6 @@
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 
 }
