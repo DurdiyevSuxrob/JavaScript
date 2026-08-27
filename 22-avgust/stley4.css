@@ -58,7 +58,7 @@
 }
 .bosh {
   width: 300px;
-  height: 200px;
+  height: 220px;
   background-color: rgba(0, green, blue, alpha);
   position: absolute;
   right: 10px;
@@ -92,4 +92,15 @@
 }
 .r {
     margin-left: 5px;
+}
+.bosh .l {
+  position: absolute;
+  right: 110px;
+  margin-top: 45px;
+  width: 80px;
+  height: 25px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 900;
+  background-color: chartreuse;
 }
