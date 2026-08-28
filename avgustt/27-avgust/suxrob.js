@@ -22,6 +22,12 @@ function formatPrice(price) {
   return new Intl.NumberFormat("uz-UZ").format(price) + " so‘m";
 }
 
+function getTotalItems() {
+  let total = 0;
+  for (let id in cart) total += cart[id];
+  return total;
+}
+
 
 
 
