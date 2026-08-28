@@ -5,10 +5,50 @@ const products = [
   { id: 4, name: "Soat", emoji: "⌚", price: 890000 },
   { id: 5, name: "Kamera", emoji: "📷", price: 3100000 },
   { id: 6, name: "Planshet", emoji: "📟", price: 2200000 },
+
+  { id: 1, name: "Noutbuk", emoji: "💻", price: 4200000 },
+  { id: 2, name: "Smartfon", emoji: "📱", price: 2800000 },
+  { id: 3, name: "Naushnik", emoji: "🎧", price: 450000 },
+  { id: 4, name: "Aqlli soat", emoji: "⌚️", price: 890000 },
+  { id: 5, name: "Kamera", emoji: "📷", price: 3100000 },
+  { id: 6, name: "Planshet", emoji: "📟", price: 2200000 },
+  { id: 7, name: "Sichqoncha", emoji: "🖱", price: 180000 },
+  { id: 8, name: "Klaviatura", emoji: "⌨️", price: 350000 },
+  { id: 9, name: "Monitor", emoji: "🖥", price: 1950000 },
+  { id: 10, name: "Printer", emoji: "🖨", price: 1250000 },
+
+  { id: 11, name: "Powerbank", emoji: "🔋", price: 250000 },
+  { id: 12, name: "USB fleshka", emoji: "💾", price: 120000 },
+  { id: 13, name: "Wi-Fi Router", emoji: "📡", price: 420000 },
+  { id: 14, name: "Bluetooth Kolonka", emoji: "🔊", price: 380000 },
+  { id: 15, name: "Web-kamera", emoji: "🎥", price: 520000 },
+  { id: 16, name: "Mikrofon", emoji: "🎙", price: 650000 },
+  { id: 17, name: "Gaming Sichqoncha", emoji: "🖱", price: 290000 },
+  { id: 18, name: "Gaming Klaviatura", emoji: "⌨️", price: 580000 },
+  { id: 19, name: "Gaming Quloqchin", emoji: "🎧", price: 720000 },
+  { id: 20, name: "Laptop Sumkasi", emoji: "💼", price: 320000 },
+
+  { id: 21, name: "Smart TV", emoji: "📺", price: 4500000 },
+  { id: 22, name: "Elektron kitob", emoji: "📖", price: 980000 },
+  { id: 23, name: "Fotoapparat", emoji: "📸", price: 5600000 },
+  { id: 24, name: "Dron", emoji: "🚁", price: 3900000 },
+  { id: 25, name: "VR Ko‘zoynak", emoji: "🥽", price: 2100000 },
+  { id: 26, name: "USB Kabel", emoji: "🔌", price: 85000 },
+  { id: 27, name: "Telefon G‘ilofi", emoji: "📱", price: 95000 },
+  { id: 28, name: "Telefon Zaryadkasi", emoji: "🔌", price: 180000 },
+  { id: 29, name: "SSD Disk", emoji: "💽", price: 850000 },
+  { id: 30, name: "Proyektor", emoji: "📽", price: 2750000 },
 ];
 
-let cart = {}; 
 
+// ============================================
+// 2. SAVAT HOLATI (state)
+// ============================================
+let cart = {}; // { productId: quantity }
+
+// ============================================
+// 3. DOM ELEMENTLARI
+// ============================================
 const productsGrid = document.getElementById("productsGrid");
 const cartItemsContainer = document.getElementById("cartItemsContainer");
 const cartTotalPriceEl = document.getElementById("cartTotalPrice");
@@ -18,6 +58,9 @@ const closeCartBtn = document.getElementById("closeCartBtn");
 const cartOverlay = document.getElementById("cartOverlay");
 const cartModal = document.getElementById("cartModal");
 
+// ============================================
+// 4. YORDAMCHI FUNKSIYALAR
+// ============================================
 function formatPrice(price) {
   return new Intl.NumberFormat("uz-UZ").format(price) + " so‘m";
 }
@@ -28,7 +71,6 @@ function getTotalItems() {
   return total;
 }
 
-
 function getTotalPrice() {
   let total = 0;
   for (let id in cart) {
@@ -38,6 +80,9 @@ function getTotalPrice() {
   return total;
 }
 
+// ============================================
+// 5. MAHSULOTLARNI RENDER QILISH
+// ============================================
 function renderProducts() {
   productsGrid.innerHTML = "";
   products.forEach((product) => {
@@ -62,6 +107,9 @@ function renderProducts() {
   });
 }
 
+// ============================================
+// 6. SAVAT BILAN ISHLASH
+// ============================================
 function addToCart(productId) {
   cart[productId] = cart[productId] ? cart[productId] + 1 : 1;
   updateCartUI();
@@ -83,8 +131,9 @@ function removeItem(productId) {
   updateCartUI();
 }
 
-
-
+// ============================================
+// 7. UI NI YANGILASH
+// ============================================
 function updateCartUI() {
   const items = Object.keys(cart);
   cartItemsContainer.innerHTML = "";
@@ -142,12 +191,66 @@ function updateCartUI() {
   cartCounter.textContent = getTotalItems();
 }
 
+// ============================================
+// 8. MODALNI OCHISH / YOPISH
+// ============================================
+function openCartModal() {
+  cartModal.classList.add("open");
+  cartOverlay.classList.add("active");
+  document.body.style.overflow = "hidden";
+}
 
+function closeCartModal() {
+  cartModal.classList.remove("open");
+  cartOverlay.classList.remove("active");
+  document.body.style.overflow = "";
+}
 
+openCartBtn.addEventListener("click", openCartModal);
+closeCartBtn.addEventListener("click", closeCartModal);
+cartOverlay.addEventListener("click", closeCartModal);
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeCartModal();
+});
 
+// ============================================
+// 9. ISHGA TUSHIRISH
+// ============================================
+renderProducts();
+updateCartUI();
+// Saqlash
+localStorage.setItem("cart", JSON.stringify(cart));
 
+// Yuklash
+const savedCart = JSON.parse(localStorage.getItem("cart"));
+if (savedCart) cart = savedCart;
 
+// Hisoblash
+function getTotalWeight() {
+    let total = 0;
+    for (let id in cart) {
+        const product = products.find(p => p.id === Number(id));
+        if (product) total += product.weight * cart[id];
+    }
+    return total;
+}
+let discountCode = "SAVE10";
+let discountPercent = 0;
 
+function applyDiscount(code) {
+  if (code === "SAVE10") discountPercent = 10;
+  updateCartUI();
+}
+
+// Jami summani hisoblashda
+function getTotalPrice() {
+  let total = 0;
+  // ... hisoblash
+  if (discountPercent > 0) {
+    total = total - (total * discountPercent) / 100;
+  }
+  return total;
+}
 
 
 
