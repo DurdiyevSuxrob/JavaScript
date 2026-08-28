@@ -62,6 +62,28 @@ function renderProducts() {
   });
 }
 
+function addToCart(productId) {
+  cart[productId] = cart[productId] ? cart[productId] + 1 : 1;
+  updateCartUI();
+}
+
+function updateItemQuantity(productId, delta) {
+  if (!cart[productId]) return;
+  const newQty = cart[productId] + delta;
+  if (newQty <= 0) {
+    delete cart[productId];
+  } else {
+    cart[productId] = newQty;
+  }
+  updateCartUI();
+}
+
+function removeItem(productId) {
+  delete cart[productId];
+  updateCartUI();
+}
+
+
 
 
 
