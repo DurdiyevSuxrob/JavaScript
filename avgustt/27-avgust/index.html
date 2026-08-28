@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1><i class="fas fa-store"></i>Mahsulotlar</h1>
         <button class="cart-btn" id="openCartBtn">
             <i class="fas fa-shopping-bag"></i>
@@ -16,7 +16,29 @@
             <span class="cart-badge" id="cart-Counter">0</span>
         </button>
     </header>
+    <div class="products-grid" id="productsgrid">
 
+    </div>
+    <div class="cart-modal-overlay" id="cartOverlay">
+
+    </div>
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-modal-header">
+            <h2><i class="fas fa-shopping-bag">Savat</i></h2>
+            <button class="close-modal-btn" id="closaCartBtn">&times</button>
+        </div>
+        <div class="cart-itemas-container" id="cartItemasContainer">
+            <div class="empty-cart-msg" id="emptyCart-Msg"></div>
+            <i class="fas fa-box-open"></i>
+            <p>Savat hozircha bo'sh</p>
+        </div>
+    </div>
+    <div class="cart-footer">
+        <div class="cart-total">
+            <span>Jami:</span>
+            <span id="carTotalPrice">0 so'm</span>
+        </div>
+    </div>
 
 <script src="suxrob.js"></script>
 </body>
