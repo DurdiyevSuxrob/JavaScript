@@ -29,6 +29,40 @@ function getTotalItems() {
 }
 
 
+function getTotalPrice() {
+  let total = 0;
+  for (let id in cart) {
+    const product = products.find((p) => p.id === Number(id));
+    if (product) total += product.price * cart[id];
+  }
+  return total;
+}
+
+function renderProducts() {
+  productsGrid.innerHTML = "";
+  products.forEach((product) => {
+    const card = document.createElement("div");
+    card.className = "product-card";
+    card.innerHTML = `
+            <div class="product-emoji">${product.emoji}</div>
+            <div class="product-name">${product.name}</div>
+            <div class="product-price">${formatPrice(product.price)}</div>
+            <button class="add-to-cart-btn" data-id="${product.id}">
+                <i class="fas fa-plus-circle"></i> Savatga
+            </button>
+        `;
+    productsGrid.appendChild(card);
+  });
+
+  // Savatga qo'shish tugmalariga event
+  document.querySelectorAll(".add-to-cart-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      addToCart(Number(btn.dataset.id));
+    });
+  });
+}
+
+
 
 
 
