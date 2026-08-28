@@ -24,11 +24,11 @@
 .btn {
   width: 90px;
   height: 30px;
-  margin-top: 14px;
   border-radius: 8px;
   background-color: blue;
   color: aliceblue;
   font-weight: 900;
+  margin-top: -10px;
 }
 .btn1 {
   width: 90px;
@@ -58,14 +58,26 @@
 }
 .bosh {
   width: 300px;
-  height: 220px;
+  height: 20px;
   background-color: rgba(0, green, blue, alpha);
   position: absolute;
   right: 10px;
   border-radius: 8px;
   background-color: aqua;
-  display: none;
+  /* display: none; */
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  padding: 60px;
+  inset: 0;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+.modal.active {
+  display: flex;
+}
+
 .bosh1 {
   width: 300px;
   height: 50px;
