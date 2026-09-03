@@ -11,10 +11,24 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .div1 h1 {
     color: black;
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: 40px;
 }
 .div2 i {
     color: black;
+    font-size: 20px;
+    
+}
+.div2 {
+    width: 100px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+
 }
