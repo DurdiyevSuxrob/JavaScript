@@ -57,7 +57,7 @@
 .divv1 {
     width: 999px;
     height: 20px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     margin-top: -33px;
     margin-left: 430px;
@@ -76,5 +76,8 @@
     margin: auto;
     margin-top: 10px;
     background-image: url(../imtihon/{811828BC-0DFF-4F7C-9F69-86ABAC43F600}.png);
+}
+.img1 {
+    
 }
 
