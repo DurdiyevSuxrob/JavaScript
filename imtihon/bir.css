@@ -9,7 +9,12 @@
     height: 110px;
     border: 4px solid blue;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 .div1 h1 {
+    color: black;
+}
+.div2 i {
     color: black;
 }
