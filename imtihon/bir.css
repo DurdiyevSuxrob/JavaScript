@@ -1,83 +1,84 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    transition: 0.1;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.1;
 }
 .nav {
-    width: 1440px;
-    height: 110px;
-    border: 4px solid blue;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 1440px;
+  height: 110px;
+  border: 4px solid blue;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .div1 h1 {
-    color: black;
-    margin-left: 50px;
-    font-weight: 900;
-    font-size: 40px;
+  color: black;
+  margin-left: 50px;
+  font-weight: 900;
+  font-size: 40px;
 }
 .div2 i {
-    color: black;
-    font-size: 20px;
-    
+  color: black;
+  font-size: 20px;
 }
 .div2 {
-    width: 100px;
-    margin-right: 50px;
-    display: flex;
-    justify-content: space-between;
-    font-weight: 900;
-
+  width: 100px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
 }
 .div3 {
-    width: 670px;
-    height: 50px;
-    border: 1px solid black;
-    margin: auto;
-    margin-top: -80px;
+  width: 670px;
+  height: 50px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: -80px;
 }
 /* ============================================ */
 .div4 {
-    width: 1440px;
-    height: 45px;
-    border: 1px solid black;
-    margin: auto;
-    margin-top: 31px;
-    
-
+  width: 1440px;
+  height: 45px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 31px;
 }
 .div4 .divv {
-    display: flex;
-    margin-top: 10px;
-    margin-left: 50px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 50px;
 }
 .divv1 {
-    width: 999px;
-    height: 20px;
-    /* border: 1px solid black; */
-    margin: auto;
-    margin-top: -33px;
-    margin-left: 430px;
-    display: flex;
-    justify-content: space-between;
+  width: 999px;
+  height: 20px;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: -33px;
+  margin-left: 430px;
+  display: flex;
+  justify-content: space-between;
 }
 .divv1 a {
-    color: black;
-    
+  color: black;
 }
 /* ===================================== */
 .img {
-    width: 1440px;
-    height: 650px;
-    border: 1px solid black;
-    margin: auto;
-    margin-top: 10px;
-    background-image: url(../imtihon/{811828BC-0DFF-4F7C-9F69-86ABAC43F600}.png);
+  width: 1440px;
+  height: 650px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 10px;
+  background-image: url(../imtihon/{811828BC-0DFF-4F7C-9F69-86ABAC43F600}.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .img1 {
-    
+  width: 365px;
+  height: 265px;
+  border: 1px solid white;
+  margin-left: 135px;
+  margin-top: 348px;
 }
-
