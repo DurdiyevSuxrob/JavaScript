@@ -32,3 +32,38 @@
     font-weight: 900;
 
 }
+.div3 {
+    width: 670px;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: -80px;
+}
+/* ============================================ */
+.div4 {
+    width: 1440px;
+    height: 45px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 31px;
+    
+
+}
+.div4 .divv {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.divv1 {
+    width: 871px;
+    height: 20px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: -33px;
+    margin-left: 430px;
+    display: flex;
+    justify-content: space-between;
+}
+.a1 {
+    
+}
