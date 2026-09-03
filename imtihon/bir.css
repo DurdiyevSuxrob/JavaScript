@@ -66,13 +66,15 @@
 }
 .divv1 a {
     color: black;
-    border: ;
     
 }
 /* ===================================== */
 .img {
-    width: ;
-    height: ;
+    width: 1440px;
+    height: 650px;
     border: 1px solid black;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url(../imtihon/{811828BC-0DFF-4F7C-9F69-86ABAC43F600}.png);
 }
 
