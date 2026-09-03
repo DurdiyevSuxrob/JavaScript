@@ -81,4 +81,23 @@
   border: 1px solid white;
   margin-left: 135px;
   margin-top: 348px;
+  color: white;
+}
+.img1 p {
+    font-size: 14px;
+}
+.img2 {
+    width: 365px;
+    height: 126px;
+    border: 1px solid white;
+    margin-top: 10px;
+    font-size: 34px;
+    font-weight: 900;
+}
+.p1 {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.btn1 {
+    
 }
