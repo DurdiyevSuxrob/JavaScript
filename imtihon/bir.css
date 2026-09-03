@@ -84,23 +84,32 @@
   color: white;
 }
 .img1 p {
-    font-size: 14px;
+  font-size: 14px;
 }
 .img2 {
-    width: 365px;
-    height: 126px;
-    border: 1px solid white;
-    margin-top: 10px;
-    font-size: 34px;
-    font-weight: 900;
+  width: 365px;
+  height: 126px;
+  border: 1px solid white;
+  margin-top: 10px;
+  font-size: 34px;
+  font-weight: 900;
 }
 .p1 {
-    margin-top: 10px;
-    font-size: 14px;
+  margin-top: 10px;
+  font-size: 14px;
 }
 .btn1 {
-   width: 130px; 
-   height: 50px;
-   border-radius: 8px;
-   margin-top: 12px;
+  width: 130px;
+  height: 50px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+.iu {
+  width: 716px;
+  height: 497px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: -490px;
+  margin-left: 570px;
 }
