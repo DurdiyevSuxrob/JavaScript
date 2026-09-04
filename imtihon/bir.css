@@ -58,6 +58,9 @@
   display: flex;
   justify-content: space-between;
 }
+.div4 i {
+  margin-top: 5px;
+}
 .divv1 a {
   text-decoration: none;
 }
@@ -129,4 +132,5 @@
 }
 .btn2 .btnn {
   transform: rotate(90deg);
+  
 }
