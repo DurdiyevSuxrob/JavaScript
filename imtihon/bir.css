@@ -134,6 +134,6 @@
   transform: rotate(90deg);
   
 }
-.d-block {
+.rasm .d-block {
   z-index: -2;
 }
