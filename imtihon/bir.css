@@ -41,7 +41,7 @@
 .div4 {
   width: 1440px;
   height: 45px;
-  border: 1px solid black;
+  border: 1px solid white;
   margin: auto;
   margin-top: 31px;
 }
@@ -53,7 +53,6 @@
 .divv1 {
   width: 999px;
   height: 20px;
-  /* border: 1px solid black; */
   margin: auto;
   margin-top: -33px;
   margin-left: 430px;
@@ -67,7 +66,7 @@
 .img {
   width: 1440px;
   height: 650px;
-  border: 1px solid black;
+  border: 1px solid white;
   margin: auto;
   margin-top: 10px;
   background-image: url(../imtihon/{811828BC-0DFF-4F7C-9F69-86ABAC43F600}.png);
@@ -78,7 +77,6 @@
 .img1 {
   width: 365px;
   height: 265px;
-  border: 1px solid white;
   margin-left: 135px;
   margin-top: 348px;
   color: white;
@@ -89,7 +87,6 @@
 .img2 {
   width: 365px;
   height: 126px;
-  border: 1px solid white;
   margin-top: 10px;
   font-size: 34px;
   font-weight: 900;
@@ -112,4 +109,22 @@
   background-position: center;
   margin-top: -490px;
   margin-left: 570px;
+}
+.btn2 {
+    width: 1310px;
+    height: 40px;
+    margin: auto;
+    margin-top: -185px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn2 i {
+    width: 40px;
+    height: 40px;
+    margin-top: 6px;
+    font-size: 20px;
+}
+.btn2 .btnn {
+  
 }
