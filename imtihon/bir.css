@@ -59,7 +59,7 @@
   justify-content: space-between;
 }
 .div4 i {
-  margin-top: 5px;
+  margin-top: 3px;
 }
 .divv1 a {
   text-decoration: none;
@@ -132,8 +132,4 @@
 }
 .btn2 .btnn {
   transform: rotate(90deg);
-  
-}
-.rasm .d-block {
-  z-index: -2;
 }
