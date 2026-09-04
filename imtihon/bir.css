@@ -133,3 +133,36 @@
 .btn2 .btnn {
   transform: rotate(90deg);
 }
+/* ============================= */
+.ret {
+  width: 1440px;
+  height: 260px;
+  border: 1px solid;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F3F3F3;
+}
+.ret1 {
+  width: 270px;
+  height: 65px;
+  border: 1px solid grey;
+  border-radius: 10px;
+
+}
+.ret i {
+  font-size: 30px;
+  padding: 12px;
+}
+.h3 {
+  margin-top: -45px;
+  margin-left: 55px;
+  font-weight: 900;
+}
+.p3 {
+  margin-top: -12px;
+  margin-left: 55px;
+  font-size: 14px;
+}
+/* ========================== */
