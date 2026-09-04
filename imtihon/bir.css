@@ -7,7 +7,6 @@
 .nav {
   width: 1440px;
   height: 110px;
-  border: 4px solid blue;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -126,5 +125,5 @@
     font-size: 20px;
 }
 .btn2 .btnn {
-  
+  transform: rotate(90deg);
 }
