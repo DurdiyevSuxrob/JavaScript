@@ -14,6 +14,7 @@
 }
 .logo {
     font-size: 25px;
+    cursor: pointer;
 }
 .menu {
     display: flex;
@@ -23,4 +24,29 @@
 .menu a {
     text-decoration: none;
     color: black;
+    font-size: 18px;
+}
+.menu-btn {
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+@media (max-width: 700px) {
+    .navbar {
+        padding: 20px;
+    }
+    .menu {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        align-items: center;
+        top: 70px
+         
+    }
 }
