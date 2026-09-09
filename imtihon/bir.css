@@ -251,10 +251,18 @@
 }
 /* ================================== */
 .tt {
-  width: 328px;
+  width: 338px;
   height: 43px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: auto;
+  margin-top: 70px;
+}
+.tt1 {
+  width: 600px;
+  height: 45px;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 10px;
 }
 
 
