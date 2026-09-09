@@ -251,7 +251,10 @@
 }
 /* ================================== */
 .tt {
-  
+  width: 328px;
+  height: 43px;
+  border: 1px solid black;
+  margin: auto;
 }
 
 
