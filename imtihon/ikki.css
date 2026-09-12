@@ -49,6 +49,10 @@
     background-color: orange;
     border-radius: 20px;
 }
+.container div img {
+    width: 470px;
+    border-radius: 20px;
+}
 
 @media (max-width: 800px) {
     .navbar {
