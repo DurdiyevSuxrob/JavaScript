@@ -9,3 +9,11 @@ body {
     text-align: center;
     padding: 50px;
 }
+
+.carusel-window {
+    width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid black;
+    
+}
